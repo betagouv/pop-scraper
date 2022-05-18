@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pop-scraper"
+version = "0.1.0"
+description = "Scraps data from Plateforme Ouverte du Patrimoine"
+authors = ["Adrien Di Pasquale <adrien.di_pasquale@beta.gouv.fr>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+Scrapy = "^2.6.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

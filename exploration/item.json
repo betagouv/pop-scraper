@@ -1,0 +1,234 @@
+{
+  "POP_COORDONNEES": {
+    "lon": 0,
+    "lat": 0
+  },
+  "ETAT": [
+    "oeuvre composite",
+    "partie en remploi",
+    "manque"
+  ],
+  "IMPL": "en écart",
+  "LOCA": "",
+  "POP_DOSSIER_VERT": "",
+  "HIST": "Verrière composite constituée de scènes de la vie de saint Nicolas du 1er quart du 16e siècle, de figures de saints (Pierre et Jean-Baptiste) réalisées vers 1525, d'un rondel avec saint Jacques du 16e siècle, d'un second rondel présentant saint Nicolas sauvant un noyé de la fin du 16e siècle ou du début du 17e siècle, et d'une Mort de la Vierge du 20e siècle (dans les 2 lancettes de droite du registre supérieur) ; les scènes du tympan (Assomption, dormition ?) datent du 16e siècle.",
+  "NOMS": [
+    "Decrock Bruno"
+  ],
+  "ATEL": [],
+  "PETA": "Verrière composite rassemblant des panneaux provenant de plusieurs verrières ; les scènes de la vie de saint Nicolas font suite à celles de la baie 1 ; assemblage de fragments au registre inférieur (dont un Christ et Dieu le Père), à droite du 2e registre, au 4e registre (dont des têtes féminines) et notamment autour des 2 rondels, et en partie gauche du 5e registre (bouche trous) ; la scène des 2 ajours inférieurs du tympan (une dormition ?) est fragmentaire ; les 2 rondels (4e registre) sont des remplois ; l'Assomption du soufflet supérieur du tympan est lacunaire",
+  "PREP": "Cette verrière possède probablement 2 scènes montrant la Mort de la Vierge, l'une du 20e siècle au registre supérieur, l'autre très fragmentaire dans les ajours inférieurs du tympan (identification non assurée).",
+  "REFA": [],
+  "COORM": "",
+  "DOSS": [
+    "dossier individuel"
+  ],
+  "NART": "",
+  "IMAGE": "",
+  "RENP": [],
+  "REFE": [],
+  "PRODUCTEUR": "Inventaire",
+  "INSC": [
+    "inscription concernant l'iconographie",
+    "armoiries",
+    "date",
+    "monogramme"
+  ],
+  "PPRO": "",
+  "POP_CONTIENT_GEOLOCALISATION": "oui",
+  "DENQ": [
+    "1989"
+  ],
+  "REFP": [],
+  "POP_COMMENTAIRES": [
+    "Le champ CONTACT ne doit pas être vide",
+    "La projection utilisée n'est pas correct"
+  ],
+  "REFM": "",
+  "AFIG": [],
+  "DENO": [
+    "verrière"
+  ],
+  "RENV": [],
+  "DEPL": "",
+  "CONTIENT_IMAGE": "oui",
+  "VOLS": "",
+  "MICR": "",
+  "MATR": [
+    "verre transparent (coloré) : à filets colorés, émail sur verre",
+    "verre transparent (incolore) : grisaille sur verre, jaune d'argent"
+  ],
+  "POP_FLAGS": [
+    "DOSS_EMPTY",
+    "ETUD_EMPTY",
+    "COPY_EMPTY",
+    "TICO_EMPTY",
+    "CONTACT_EMPTY"
+  ],
+  "WEB": "",
+  "POP_COORDINATES_POLYGON": {
+    "coordinates": [],
+    "type": "Polygon"
+  },
+  "THEM": "",
+  "PDIM": "",
+  "PROT": "",
+  "STRU": [
+    "lancette (3)",
+    "tympan ajouré"
+  ],
+  "AIRE": "Blaiserives",
+  "LARC": "",
+  "DOSURLPDF": "",
+  "DPT": [
+    "52"
+  ],
+  "DOMN": "",
+  "CATE": [
+    "vitrail"
+  ],
+  "COOR": "0782980 ; 10076870",
+  "DMAJ": "2020-08-19",
+  "DMIS": "1993-07-23",
+  "REPR": [
+    "Dieu le Père : tiare, Christ, Mort de la Vierge, Assomption",
+    "scènes (saint Nicolas, crédit, punition, intronisation, mort, miracle : noyade)",
+    "figures (saint Pierre, saint Jean-Baptiste, tête : femme, saint Jacques le Majeur, saint : phylactère)",
+    "ornementation : en bordure (grotesque), en encadrement (ornement à forme architecturale), en fond"
+  ],
+  "MOSA": "",
+  "DPT_LETTRE": [
+    "Haute-Marne"
+  ],
+  "PINT": "",
+  "PINS": "inscription concernant l'iconographie : inscription narrative à gauche du 4e registre ; armoiries non identifiées : au 3e registre ; date : au 3e registre (1521), faisant partie de l'assemblage de fragments ; monogramme : dans des soleils au 5e registre",
+  "ETUD": "recensement du vitrail",
+  "COM": [
+    "Nully-Trémilly"
+  ],
+  "STAD": [],
+  "ORIG": "",
+  "MFICH": [],
+  "COPY": "© Inventaire général",
+  "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+  "POP_ARRETE_PROTECTION": [],
+  "STAT": [
+    "propriété de la commune"
+  ],
+  "REF": "IM52000006",
+  "INTE": "à signaler",
+  "APPL": "",
+  "REG": [
+    "Grand Est"
+  ],
+  "LINHA": [],
+  "LIENS": [],
+  "TOUT": "",
+  "CONTACT": "",
+  "REFMUS": [],
+  "WCOM": [
+    "Nully-Trémilly"
+  ],
+  "EMPL": "baie 2",
+  "VIDEO": [
+    "mem/0395/ivr21_89520853za_p.jpg;mem/0395/ivr21_89520853za_v.jpg"
+  ],
+  "TICO": "verrière légendaire (baie 2)",
+  "ZONE": "Lambert1",
+  "LREG": [],
+  "POP_DOSSIER_PROTECTION": [],
+  "DESC": "Lancettes de hauteur inégale ; tympan à 1 oculus et 2 ajours ; 5 registres ; emploi de verre vénitien dans la lancette droite du registre inférieur (scène de la vie de saint Nicolas : le châtiment du débiteur), et d'émaux dans le rondel montrant saint Nicolas sauvant un noyé (4e registre) ; le second rondel est peint en grisaille et jaune d'argent (saint Jacques)",
+  "NUMP": "",
+  "HISTORIQUE": [
+    {
+      "date": "2020-8-19 7:15",
+      "updateMode": "import",
+      "_id": "5f3cd18070b2e90e1a393ad0",
+      "nom": "Rotolo",
+      "prenom": "Antonella",
+      "email": "antonella.rotolo@culture.gouv.fr"
+    }
+  ],
+  "REFJOC": [],
+  "WADRS": "",
+  "PAPP": "",
+  "TITR": "",
+  "__v": 1,
+  "PHOTO": "",
+  "PRECISION_JURIDIQUE": "",
+  "IMG": [
+    "http://www2.culture.gouv.fr/Wave/image/memoire/0395/ivr21_89520853za_p.jpg"
+  ],
+  "MEMOIRE": [
+    {
+      "ref": "IVR21_19895200854ZA",
+      "name": "Médaillons (détail).",
+      "_id": "5b843a0da9e4b6460c83668a",
+      "copy": "© Inventaire général, ADAGP",
+      "url": "memoire/IVR21_19895200854ZA/ivr21_19895200854za_p.jpg"
+    },
+    {
+      "ref": "IVR21_19895200853ZA",
+      "name": "Médaillons (détail).",
+      "_id": "5b843a0da9e4b6460c83668b",
+      "copy": "© Inventaire général, ADAGP",
+      "url": "memoire/IVR21_19895200853ZA/ivr21_19895200853za_p.jpg"
+    }
+  ],
+  "POP_IMPORT": [
+    "5f3ccf0670b2e90e1a38d668"
+  ],
+  "AUTR": [
+    "auteur inconnu"
+  ],
+  "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+  "DOSURL": "",
+  "DATE": [],
+  "EXEC": "",
+  "PDEN": [
+    "verrière légendaire"
+  ],
+  "DOSURLP": "",
+  "ADRS": "",
+  "CANT": "",
+  "NUMA": "",
+  "INSEE": [
+    "52359"
+  ],
+  "PARN": [],
+  "DIMS": "h = 490 ; la = 200",
+  "BIBL": "",
+  "LIEU": "Nully-Trémilly",
+  "BASE": "Patrimoine mobilier (Palissy)",
+  "JDAT": [],
+  "MANQUANT": [],
+  "EXPO": "",
+  "PERS": [],
+  "IDAGR": [],
+  "PART": [],
+  "ACQU": "",
+  "EDIF": "église paroissiale de la Nativité-de-la-Vierge",
+  "SOUR": "",
+  "OBS": "",
+  "WRENV": "",
+  "NINV": "",
+  "DPRO": "1909/07/09 : classé au titre immeuble",
+  "LMDP": "",
+  "SCLD": [],
+  "SCLE": [
+    "1er quart 16e siècle",
+    "2e quart 16e siècle",
+    "limite 16e siècle 17e siècle",
+    "16e siècle",
+    "20e siècle"
+  ],
+  "PLOC": "Anciennement région de : Champagne-Ardenne",
+  "SCLX": [
+    "16e s.",
+    "17e s.",
+    "20e s."
+  ],
+  "DBOR": [
+    "1993"
+  ]
+}
