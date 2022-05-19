@@ -4,31 +4,10 @@ def build_query(cursor):
   return {
     "query": {
       "bool": {
-        "must": [
+        "should": [
           {
-            "bool": {
-              "must": [
-                {
-                  "bool": {
-                    "must": [
-                      {
-                        "bool": {
-                          "should": [
-                            {
-                              "regexp": {
-                                "REF.keyword": "[Pp][Mm].*"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ],
-                    "must_not": [],
-                    "should": [],
-                    "should_not": []
-                  }
-                }
-              ]
+            "regexp": {
+              "REF.keyword": "[Pp][Mm].*"
             }
           }
         ]
