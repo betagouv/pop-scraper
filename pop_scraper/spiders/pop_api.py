@@ -9,11 +9,16 @@ class PopApiSpider(scrapy.Spider):
   allowed_domains = ['api.pop.culture.gouv.fr']
   start_urls = ['http://api.pop.culture.gouv.fr/']
 
+  def __init__(self, max_items=None, ref=None, *args, **kwargs):
+    super(PopApiSpider, self).__init__(*args, **kwargs)
+    self.max_items_from_args = max_items
+    self.build_request_kwargs = { "exact_ref": ref }
+
   def start_requests(self):
     return [self.build_request(0)]
 
   def build_request(self, cursor=0, **kwargs):
-    query = build_query(cursor, **kwargs)
+    query = build_query(cursor, **self.build_request_kwargs, **kwargs)
     return scrapy.Request(
       "https://api.pop.culture.gouv.fr/search/palissy/_msearch",
       method="POST",
@@ -28,12 +33,13 @@ class PopApiSpider(scrapy.Spider):
     if response.meta["cursor"] == 0:
       logging.info(f"STARTING CRAWL, total hits: {total_hits}")
     hits = res["responses"][0]["hits"]["hits"]
-    if len(hits) == self.settings.get("ITEMS_PER_REQUEST") and response.meta["cursor"] < self.settings.getint("MAX_ITEMS", 1000000):
-      yield self.build_request(response.meta["cursor"] + self.settings.get("ITEMS_PER_REQUEST"))
+    next_cursor = response.meta["cursor"] + self.settings.get("ITEMS_PER_REQUEST")
+    if len(hits) == self.settings.get("ITEMS_PER_REQUEST") and next_cursor < self.get_max_items():
+      yield self.build_request(next_cursor)
     for hit in hits:
       objet = Objet()
       for field in objet.fields:
-        objet[field] = hit["_source"].get(field)
+        objet[field] = self.serialize_value(hit["_source"].get(field))
       yield objet
       for idx, memoire_fields in enumerate(hit["_source"].get("MEMOIRE", [])):
         photo = Photo(ref_palissy=objet["REF"], position=idx)
@@ -43,4 +49,14 @@ class PopApiSpider(scrapy.Spider):
           photo[field] = memoire_fields.get(field)
         yield photo
 
+  def serialize_value(self, value):
+    if isinstance(value, list) and all(isinstance(e, str) for e in value):
+      return ";".join(value)
+    return value
+
+  def get_max_items(self):
+    if self.max_items_from_args:
+      return int(self.max_items_from_args)
+
+    return self.settings.getint("MAX_ITEMS", 1000000)
 

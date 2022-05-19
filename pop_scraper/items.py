@@ -50,7 +50,7 @@ class Objet(scrapy.Item):
   EXEC = scrapy.Field()
   EXPO = scrapy.Field()
   HIST = scrapy.Field()
-  HISTORIQUE = scrapy.Field()
+  # HISTORIQUE = scrapy.Field()
   IDAGR = scrapy.Field()
   IMAGE = scrapy.Field()
   IMG = scrapy.Field()
