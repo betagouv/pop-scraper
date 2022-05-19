@@ -1,10 +1,10 @@
 from pop_scraper.settings import ITEMS_PER_REQUEST
 
-def build_query(cursor, exact_ref=None):
+def build_query(base_pop, cursor, exact_ref=None):
   return {
     "query": {
       "bool": {
-        "should": build_shouldas(exact_ref)
+        "should": build_shouldas(base_pop, exact_ref)
       }
     },
     "size": ITEMS_PER_REQUEST,
@@ -21,16 +21,8 @@ def build_query(cursor, exact_ref=None):
     }
   }
 
-def build_shouldas(exact_ref):
-  if exact_ref is None:
-    return [
-        {
-        "regexp": {
-          "REF.keyword": "[Pp][Mm].*"
-        }
-      }
-    ]
-  else:
+def build_shouldas(base_pop, exact_ref):
+  if exact_ref is not None:
     return [
       {
         "term": {
@@ -38,3 +30,12 @@ def build_shouldas(exact_ref):
         }
       }
     ]
+  elif base_pop == "palissy":
+    return [
+        {
+        "regexp": {
+          "REF.keyword": "[Pp][Mm].*"
+        }
+      }
+    ]
+  return []

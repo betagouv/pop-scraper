@@ -6,7 +6,7 @@
 import scrapy
 
 
-class Objet(scrapy.Item):
+class ItemPalissy(scrapy.Item):
   ACQU = scrapy.Field()
   ADRS = scrapy.Field()
   AFIG = scrapy.Field()
@@ -68,7 +68,8 @@ class Objet(scrapy.Item):
   LREG = scrapy.Field()
   MANQUANT = scrapy.Field()
   MATR = scrapy.Field()
-  # MEMOIRE = scrapy.Field()
+  MEMOIRE_REFS = scrapy.Field()
+  MEMOIRE_URLS = scrapy.Field()
   MFICH = scrapy.Field()
   MICR = scrapy.Field()
   MOSA = scrapy.Field()
@@ -134,7 +135,7 @@ class Objet(scrapy.Item):
   WRENV = scrapy.Field()
   ZONE = scrapy.Field()
 
-class Photo(scrapy.Item):
+class ItemMemoire(scrapy.Item):
   ref = scrapy.Field()
   ref_palissy = scrapy.Field()
   name = scrapy.Field()

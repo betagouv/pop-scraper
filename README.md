@@ -17,13 +17,19 @@ Déployé et disponible sur [zyte.com](https://app.zyte.com/)
 
 ## Options
 
-### MAX_ITEMS
+### `base_pop`
+
+Base POP à scrapper. Seules `memoire` et `palissy` sont supportées. Défault `palissy`
+
+`poetry run scrapy crawl pop_api -a base_pop=memoire`
+
+### `max_items`
 
 Limite le nombre d'objets à parcourir
 
 `poetry run scrapy crawl pop_api -a max_items=200`
 
-### REF
+### `ref`
 
 Scrappe un seul objet grace à sa référence Palissy
 
