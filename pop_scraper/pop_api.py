@@ -1,4 +1,6 @@
-def build_query():
+from pop_scraper.settings import ITEMS_PER_REQUEST
+
+def build_query(cursor):
   return {
     "query": {
       "bool": {
@@ -6,26 +8,6 @@ def build_query():
           {
             "bool": {
               "must": [
-                {
-                  "bool": {
-                    "must": [
-                      {
-                        "bool": {
-                          "should": [
-                            {
-                              "regexp": {
-                                "DPT.keyword": ".*52.*"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ],
-                    "must_not": [],
-                    "should": [],
-                    "should_not": []
-                  }
-                },
                 {
                   "bool": {
                     "must": [
@@ -52,8 +34,8 @@ def build_query():
         ]
       }
     },
-    "size": 25,
-    "from": 0,
+    "size": ITEMS_PER_REQUEST,
+    "from": cursor,
     "_source": {
       "excludes": [
         "ADRS2",

@@ -1,1 +1,2237 @@
-{"responses":[{"took":2,"timed_out":false,"_shards":{"total":5,"successful":5,"skipped":0,"failed":0},"hits":{"total":2368,"max_score":2.0,"hits":[{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68bbeb5387551d9882eaab","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":["oeuvre restaurée"],"IMPL":"en village","LOCA":"","POP_DOSSIER_VERT":"","HIST":"Verrière de la Genèse réalisée vers 1520, oeuvre apparentée à Ceffonds (52), Villeret (10), Chavanges (10) et Saint-Parres-aux-Tertres (10).","NOMS":["Decrock Bruno"],"ATEL":[],"PETA":"Ensemble assez restauré, notamment l'ange de l'expulsion du paradis terrestre ; bouche trous dans les bordures des lancettes ; éléments végétaux dans les têtes de lancettes","PREP":"","REFA":[],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":["inscription","monogramme"],"PPRO":"","POP_CONTIENT_GEOLOCALISATION":"oui","DENQ":["1989"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide","La projection utilisée n'est pas correct"],"REFM":"","AFIG":[],"DENO":["verrière"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"oui","VOLS":"","MICR":"","MATR":["verre transparent (coloré)","verre transparent (incolore) : grisaille sur verre, jaune d'argent"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":["lancette (3, polylobé)","tympan ajouré"],"AIRE":"Montier-en-Der","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["vitrail"],"COOR":"0774740 ; 10091150","DMAJ":"2020-08-19","DMIS":"1993-07-23","REPR":["Adam, Créateur, Eve, le péché, Paradis terrestre, expulsion","ornementation : en encadrement (arcature, ornement à forme végétale), en bordure (ornement à forme végétale, phylactère, rameau), en fond (soleil)"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"inscription : sur phylactère dans les bordures (TOUT A DIEU) ; monogramme : de la Vierge et du Christ dans la bordure du tympan","ETUD":"recensement du vitrail","COM":["Puellemontier"],"STAD":["avec oeuvre apparentée connue"],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété de la commune"],"REF":"IM52000044","INTE":"à signaler","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Puellemontier"],"EMPL":"baie 4","VIDEO":["mem/0295/ivr21_89520091xa_p.jpg;mem/0295/ivr21_89520091xa_v.jpg"],"TICO":"verrière figurée : la genèse (baie 4)","ZONE":"Lambert1","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"Tympan à 2 soufflets et 7 écoinçons ; panneaux au registre central, dans les têtes de lancettes et au tympan, vitrerie losangée en complément entourée de bordures ; les bordures du tympan sont peintes en grisaille et jaune d'argent avec alternance de verres colorés","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:15","updateMode":"import","_id":"5f3cd18270b2e90e1a393af8","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"Genèse (la)","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":["http://www2.culture.gouv.fr/Wave/image/memoire/0295/ivr21_89520091xa_p.jpg"],"MEMOIRE":[{"ref":"IVR21_19895200091XA","name":"Registre figuré","_id":"5b843a0da9e4b6460c8366b9","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19895200091XA/ivr21_19895200091xa_p.jpg"},{"ref":"IVR21_19875200002PA","name":"Vue d'ensemble.","_id":"5b843b47a9e4b6460c85de49","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19875200002PA/ivr21_19875200002pa_p.jpg"}],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["auteur inconnu"],"AUTP":"Philippot, Jacques - © Inventaire général, ADAGP","DOSURL":"","DATE":["1520 VERS"],"EXEC":"","PDEN":["verrière figurée"],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52411"],"PARN":[],"DIMS":"h = 400 ; la = 200","BIBL":"","LIEU":"","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"église paroissiale de la Conception-de-la-Vierge","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"1909/07/09 : classé au titre immeuble","LMDP":"","SCLD":[],"SCLE":["1er quart 16e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["16e s."],"DBOR":["1993"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68bbeb5387551d9882eab3","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":["manque"],"IMPL":"en écart","LOCA":"","POP_DOSSIER_VERT":"","HIST":"","NOMS":["Decrock Bruno"],"ATEL":[],"PETA":"La partie supérieure du tympan (anges tenant les instruments de la Passion) est manquante ; la bordure du registre inférieur de la lancette droite est composée de fragments","PREP":"La comparution de saint Barthélémy et son supplice sont figurés dans la même scène.","REFA":[],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":["inscription concernant l'iconographie","inscription concernant le commanditaire"],"PPRO":"seuls les panneaux du 16e siècle sont classés, les autres sont inscrits au titre immeuble (1986 06 02)","POP_CONTIENT_GEOLOCALISATION":"oui","DENQ":["1989"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide","La projection utilisée n'est pas correct"],"REFM":"","AFIG":[],"DENO":["verrière"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"oui","VOLS":"","MICR":"","MATR":["verre transparent (coloré)","verre transparent (incolore) : grisaille sur verre, jaune d'argent"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":["lancette (3, polylobé)","tympan ajouré"],"AIRE":"Montier-en-Der","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["vitrail"],"COOR":"0785620 ; 10087585","DMAJ":"2020-08-19","DMIS":"1993-07-23","REPR":["Crucifixion, ange : Instrument de la Passion, phylactère","figures (saint Nicolas, saint Barthélémy)","scène (saint Barthélémy, jugement, roi, supplice, martyre)","ornementation : en encadrement (ornement à forme architecturale), en bordure"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"inscription concernant l'iconographie : avec versets de la Bible au niveau de la Crucifixion et dans les têtes de lancettes ; inscription concernant l'iconographie : dans la scène du supplice de saint Bathélémy ; inscription concernant le commanditaire : incomplète, au soubassement","ETUD":"recensement du vitrail","COM":["Robert-Magny-Laneuville-à-Rémy"],"STAD":[],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété de la commune"],"REF":"IM52000052","INTE":"à signaler","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Robert-Magny-Laneuville-à-Rémy"],"EMPL":"baie 5","VIDEO":["mem/0294/ivr21_89520024xa_p.jpg;mem/0294/ivr21_89520024xa_v.jpg"],"TICO":"verrière (baie 5)","ZONE":"Lambert1","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"Tympan à 2 mouchettes ; 3 registres ; les anges tenant les instruments de la Passion (tympan) sont peints en grisaille et jaune d'argent ; vitrerie losangée en complément dans la lancette droite du registre inférieur (au milieu de bordures) et en partie supérieure du tympan","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:15","updateMode":"import","_id":"5f3cd18270b2e90e1a393afc","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":["http://www2.culture.gouv.fr/Wave/image/memoire/0294/ivr21_89520024xa_p.jpg"],"MEMOIRE":[{"ref":"IVR21_19895200024XA","name":"Les 2 registres supérieurs","_id":"5b843a0da9e4b6460c8366c3","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19895200024XA/ivr21_19895200024xa_p.jpg"},{"ref":"IVR21_19855200064XA","name":"Vue d'ensemble.","_id":"5b843b47a9e4b6460c85de4b","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19855200064XA/ivr21_19855200064xa_p.jpg"}],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["auteur inconnu"],"AUTP":"Philippot, Jacques - © Inventaire général, ADAGP","DOSURL":"","DATE":["1550 VERS"],"EXEC":"","PDEN":[],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52427"],"PARN":[],"DIMS":"h = 580 ; la = 240 ; bordure du registre inférieur de la lancette droite : la = 10","BIBL":"","LIEU":"Robert Magny","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"église paroissiale Saint-Barthélémy","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"1908/07/25 : classé au titre objet","LMDP":"","SCLD":[],"SCLE":["milieu 16e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["16e s."],"DBOR":["1993"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68bbeb5387551d9882eab5","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":["oeuvre restaurée"],"IMPL":"en écart","LOCA":"","POP_DOSSIER_VERT":"","HIST":"Verrière dont les panneaux des têtes de lancettes et du tympan datent du 1er quart du 16e siècle et ceux des lancettes (fondation du Rosaire) de la fin du 19e siècle","NOMS":["Decrock Bruno"],"ATEL":[],"PETA":"Le tympan est restauré ; la bordure des têtes de lancettes est fragmentaire","PREP":"Emploi d'un même carton inversé pour les anges musiciens du tympan.","REFA":[],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":["monogramme"],"PPRO":"seuls les panneaux du 16e siècle sont classés et l'église n'est pas protégée","POP_CONTIENT_GEOLOCALISATION":"non","DENQ":["1989"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide"],"REFM":"PV005505","AFIG":[],"DENO":["verrière"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"oui","VOLS":"","MICR":"","MATR":["verre transparent (coloré) : sanguine sur verre","verre transparent (incolore) : grisaille sur verre, jaune d'argent"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":["lancette (2, polylobé)","tympan ajouré"],"AIRE":"Blaiserives","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["vitrail"],"COOR":"","DMAJ":"2020-08-19","DMIS":"1993-07-23","REPR":["Dieu le Père : tiare, colombe : symbole : Saint-Esprit, ange : musicien","ornementation : en encadrement (soleil), en bordure","scène (rosaire : fondation)"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"monogramme : du christ et de la Vierge dans les têtes de lancettes","ETUD":"recensement du vitrail","COM":["Blaiserives"],"STAD":[],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété de la commune"],"REF":"IM52000054","INTE":"à signaler","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Blaiserives"],"EMPL":"baie 3","VIDEO":["mem/0395/ivr21_89520848za_p.jpg;mem/0395/ivr21_89520848za_v.jpg"],"TICO":"verrière (baie 3)","ZONE":"","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"Tympan à 5 ajours ; les fragments de bordure des têtes de lancettes et les anges des ajours latéraux du tympan sont peints en grisaille et jaune d'argent ; emploi de sanguine sur verre pour la chevelure des anges musiciens du tympan","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:15","updateMode":"import","_id":"5f3cd18270b2e90e1a393b00","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":["http://www2.culture.gouv.fr/Wave/image/memoire/0395/ivr21_89520848za_p.jpg"],"MEMOIRE":[{"ref":"IVR21_19895200848ZA","name":"Tympan.","_id":"5b843a0da9e4b6460c836690","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19895200848ZA/ivr21_19895200848za_p.jpg"}],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["Tiercelin (atelier de, peintre-verrier)"],"AUTP":"Philippot, Jacques - © Inventaire général, ADAGP","DOSURL":"","DATE":[],"EXEC":"","PDEN":[],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52178"],"PARN":[],"DIMS":"h = 320 ; la = 180","BIBL":"","LIEU":"Blaiserives","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"église paroissiale Saint-Louvent","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"1922/12/02 : classé au titre objet","LMDP":"","SCLD":[],"SCLE":["1er quart 16e siècle","4e quart 19e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["16e s.","19e s."],"DBOR":["1993"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68bbeb5387551d9882eab8","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":["partie en remploi","manque","oeuvre restaurée"],"IMPL":"en écart","LOCA":"","POP_DOSSIER_VERT":"","HIST":"Verrière dont les panneaux du tympan datent du 1er quart du 16e siècle ; ceux des lancettes (scènes de la Passion) ont été réalisés par l'atelier Tiercelin en 1878","NOMS":["Decrock Bruno"],"ATEL":[],"PETA":"Remploi d'une partie supérieure de Déploration au quadrilobe du tympan (bustes de la Vierge et de Madeleine) avec buste d'un saint évêque utilisé en bouche-trou à gauche et agneau de saint Jean-Baptiste remonté à la partie supérieure ; éléments de bordure dans les mouchettes et les écoinçons ; ensemble restauré en 1878","PREP":"","REFA":[],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":["inscription concernant une restauration"],"PPRO":"seuls les panneaux du 16e siècle sont classés et l'église n'est pas protégée","POP_CONTIENT_GEOLOCALISATION":"non","DENQ":["1989"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide"],"REFM":"PV005505","AFIG":[],"DENO":["verrière"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"oui","VOLS":"","MICR":"","MATR":["verre transparent (coloré)","verre transparent (incolore) : grisaille sur verre, jaune d'argent"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":["lancette (2, polylobé)","tympan ajouré"],"AIRE":"Blaiserives","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["vitrail"],"COOR":"","DMAJ":"2020-08-19","DMIS":"1993-07-23","REPR":["Déploration","figure (saint : évêque, Agneau mystique : saint Jean-Baptiste)","Passion","ornementation : en bordure (candélabre, bucrane)"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"inscription concernant une restauration : date (1878) de restauration et inscription de repose placées dans le lobe inférieur du tympan ; inscription concernant le commanditaire : des panneaux des lancettes, au soubassement (19e siècle)","ETUD":"recensement du vitrail","COM":["Blaiserives"],"STAD":[],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété de la commune"],"REF":"IM52000057","INTE":"à signaler","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Blaiserives"],"EMPL":"baie 8","VIDEO":["mem/0395/ivr21_89520850za_p.jpg;mem/0395/ivr21_89520850za_v.jpg"],"TICO":"verrière (baie 8)","ZONE":"","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"Tympan à 1 quadrilobe, 2 mouchettes et écoinçons ; les éléments de bordure des mouchettes et des écoinçons du tympan sont peints en grisaille et jaune d'argent","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:15","updateMode":"import","_id":"5f3cd18270b2e90e1a393b04","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":["http://www2.culture.gouv.fr/Wave/image/memoire/0395/ivr21_89520850za_p.jpg"],"MEMOIRE":[{"ref":"IVR21_19895200850ZA","name":"Tympan.","_id":"5b843a0da9e4b6460c83668e","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19895200850ZA/ivr21_19895200850za_p.jpg"}],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["Tiercelin (atelier de, peintre-verrier)"],"AUTP":"Philippot, Jacques - © Inventaire général, ADAGP","DOSURL":"","DATE":["1878"],"EXEC":"","PDEN":[],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52178"],"PARN":[],"DIMS":"h = 200 ; la = 120","BIBL":"","LIEU":"Blaiserives","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"église paroissiale Saint-Louvent","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"1922/12/02 : classé au titre objet","LMDP":"","SCLD":[],"SCLE":["1er quart 16e siècle","3e quart 19e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["16e s.","19e s."],"DBOR":["1993"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68bbeb5387551d9882eabe","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":["partie en remploi","oeuvre composite","manque"],"IMPL":"en écart","LOCA":"","POP_DOSSIER_VERT":"","HIST":"2 rondels de la fin du 16e siècle de provenance inconnue remployés au milieu d'une verrière décorative du 20e siècle","NOMS":["Decrock Bruno"],"ATEL":[],"PETA":"Remploi de 2 rondels au centre du registre supérieur des lancettes latérales ; le rondel de la lancette droite (charité de saint Martin) est en grande partie détruit","PREP":"","REFA":[],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":[],"PPRO":"","POP_CONTIENT_GEOLOCALISATION":"non","DENQ":["1989"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide"],"REFM":"","AFIG":[],"DENO":["verrière"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"non","VOLS":"","MICR":"","MATR":["verre transparent (coloré)","verre transparent (incolore) : grisaille sur verre, jaune d'argent, émail sur verre"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":["lancette (3)"],"AIRE":"Fayl-la-Forêt","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["vitrail"],"COOR":"","DMAJ":"2020-08-19","DMIS":"1993-07-23","REPR":["figure (saint Martin)","scène (saint Martin, charité)","ornement à forme géométrique","représentation d'objet (symbole, Instrument de la Passion)"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"","ETUD":"recensement du vitrail","COM":["Pressigny"],"STAD":[],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété de la commune"],"REF":"IM52000063","INTE":"à signaler","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Pressigny"],"EMPL":"baie 0","VIDEO":[""],"TICO":"verrière (baie 0)","ZONE":"","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"Lancettes murées à la partie inférieure ; 3 registres dans les lancettes latérales ; rondels en grisaille, jaune d'argent et émail sur verre en partie supérieure des lancettes latérales, verrière géométrique et symbolique (lancette centrale) peinte en verre transparent (coloré) partout ailleurs","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:15","updateMode":"import","_id":"5f3cd18270b2e90e1a393b08","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":[],"MEMOIRE":[],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["auteur inconnu"],"AUTP":"","DOSURL":"","DATE":[],"EXEC":"","PDEN":[],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52406"],"PARN":[],"DIMS":"h = 180 ; la = 70 ; rondel : d = 20","BIBL":"","LIEU":"Poinson-lès-Fayl","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"église paroissiale Saint-Martin","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"1925/10/21 : inscrit au titre immeuble","LMDP":"","SCLD":[],"SCLE":["4e quart 16e siècle","20e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["16e s.","20e s."],"DBOR":["1993"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68bbeb5387551d9882eac0","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":["oeuvre restaurée"],"IMPL":"en ville","LOCA":"","POP_DOSSIER_VERT":"","HIST":"Verrière réalisée vers 1503, don de Girard d'Alichamp, chanoine de Saint-Laurent ; elle est apparentée à celle de Ricey-Bas (10) ; le soubassement décoratif coloré pourrait dater du 19e siècle.","NOMS":["Decrock Bruno"],"ATEL":[],"PETA":"La partie inférieure du chanoine donateur est restaurée","PREP":"Emploi d'un même carton inversé pour les 2 anges recueillant le sang du Christ.","REFA":[],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":["inscription concernant l'iconographie","armoiries","monogramme"],"PPRO":"","POP_CONTIENT_GEOLOCALISATION":"oui","DENQ":["1989"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide","La projection utilisée n'est pas correct"],"REFM":"","AFIG":[],"DENO":["verrière"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"oui","VOLS":"","MICR":"","MATR":["verre transparent (coloré) : gravé"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":["lancette (2, polylobé)","tympan ajouré"],"AIRE":"Joinville","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["vitrail"],"COOR":"0807255 ; 10085575","DMAJ":"2020-08-19","DMIS":"1993-07-23","REPR":["Calvaire, ange : sang, Vierge à l'Enfant, croissant de lune, rayons lumineux","scène (chanoine : chapelle, en donateur, sainte Anne, phylactère)","figure (homme : clergé)","ornementation : en encadrement (ornement à forme architecturale, fleur, putto, armoiries), en soubassement, fond mosaïqué"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"inscription concernant l'iconographie : sur la banderole portée par le religieux figurant au registre inférieur de la lancette gauche (inscription latine à la louange du Christ rédempteur) ; armoiries identifiées : de Gérard Dalichamp, père du donateur (à gauche) et de sa femme Guillemette Perreau (à droite), au soubassement ; monogramme : du Christ dans les têtes de lancettes et l'amortissement","ETUD":"recensement du vitrail","COM":["Joinville"],"STAD":["avec oeuvre apparentée connue"],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété publique"],"REF":"IM52000065","INTE":"à signaler","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Joinville"],"EMPL":"baie 0","VIDEO":["mem/0294/ivr21_89520068xa_p.jpg;mem/0294/ivr21_89520068xa_v.jpg"],"TICO":"verrière figurée : le calvaire (baie 0)","ZONE":"Lambert1","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"Tympan à 1 soufflet et 2 écoinçons ; 2 registres à gauche ; verre gravé dans la scène au chanoine donateur (registre supérieur de la lancette gauche)","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:15","updateMode":"import","_id":"5f3cd18270b2e90e1a393b0c","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"Calvaire (le)","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":["http://www2.culture.gouv.fr/Wave/image/memoire/0294/ivr21_89520068xa_p.jpg"],"MEMOIRE":[{"ref":"IVR21_19895200068XA","name":"Partie centrale figurée","_id":"5b843a0da9e4b6460c8366c2","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19895200068XA/ivr21_19895200068xa_p.jpg"}],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["auteur inconnu"],"AUTP":"Philippot, Jacques - © Inventaire général, ADAGP","DOSURL":"","DATE":["1503 VERS"],"EXEC":"","PDEN":["verrière figurée"],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52250"],"PARN":[],"DIMS":"h = 450 ; la = 125","BIBL":"","LIEU":"","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"chapelle Sainte-Anne","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"1909/04/14 : classé au titre immeuble","LMDP":"","SCLD":[],"SCLE":["1er quart 16e siècle","19e siècle (?)"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["16e s.","19e s."],"DBOR":["1993"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68bbeb5387551d9882eac3","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":["oeuvre restaurée"],"IMPL":"en ville","LOCA":"","POP_DOSSIER_VERT":"","HIST":"Verrière de la Vie de la Vierge réalisée vers 1505, don de Henri de Lorraine, évêque de Metz ; le panneau du donateur est apparenté à une verrière disparue de la nef de la cathédrale de Troyes (10) ; l'Annonciation est apparentée à Herbisse (10) notamment.","NOMS":["Decrock Bruno"],"ATEL":[],"PETA":"Ensemble assez restauré, notamment les inscriptions et le fond de mosaïque du tympan","PREP":"","REFA":[],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":["inscription concernant l'iconographie","armoiries"],"PPRO":"","POP_CONTIENT_GEOLOCALISATION":"oui","DENQ":["1989"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide","La projection utilisée n'est pas correct"],"REFM":"","AFIG":[],"DENO":["verrière"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"oui","VOLS":"","MICR":"","MATR":["verre transparent (coloré) : gravé"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":["lancette (3, polylobé)","tympan ajouré"],"AIRE":"Joinville","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["vitrail"],"COOR":"0807255 ; 10085575","DMAJ":"2020-08-19","DMIS":"1993-07-23","REPR":["Nativité de la Vierge, Présentation de la Vierge au Temple, Mariage de la Vierge, Annonciation, Nativité","scène (homme : en donateur, saint Etienne)","ornementation : en encadrement (ornement à forme architecturale, dais), fond mosaïqué"],"MOSA":"mosa-imgCHAM : Images de Champagne-Ardenne","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"inscription concernant l'iconographie : inscription narrative sous chaque scène (sauf au registre inférieur) ; armoiries identifiées : d'Henri de Lorraine au panneau du donateur, et répétées dans chaque soufflet du tympan","ETUD":"recensement du vitrail","COM":["Joinville"],"STAD":["avec oeuvre apparentée connue"],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété publique"],"REF":"IM52000068","INTE":"à signaler","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Joinville"],"EMPL":"baie 3","VIDEO":["mem/0294/ivr21_89520071xa_p.jpg;mem/0294/ivr21_89520071xa_v.jpg"],"TICO":"verrière figurée : la Vie de la Vierge (baie 3)","ZONE":"Lambert1","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"Tympan à 3 soufflets et écoinçons ; 2 registres ; verres gravés pour le nimbe de la Vierge (scène de sa naissance) et dans les armoiries du registre inférieur (panneau du donateur)","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:15","updateMode":"import","_id":"5f3cd18270b2e90e1a393b10","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"Vie de la Vierge (la)","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":["http://www2.culture.gouv.fr/Wave/image/memoire/0294/ivr21_89520071xa_p.jpg"],"MEMOIRE":[{"ref":"IVR21_19895200071XA","name":"Les 2 lancettes gauches","_id":"5b843a0da9e4b6460c8366bf","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19895200071XA/ivr21_19895200071xa_p.jpg"},{"ref":"IVR21_19855200048VA","name":"Vue dans l'abside.","_id":"5b843b47a9e4b6460c85de4a","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_19855200048VA/ivr21_19855200048va_p.jpg"}],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["auteur inconnu"],"AUTP":"Philippot, Jacques - © Inventaire général, ADAGP","DOSURL":"","DATE":["1505 VERS"],"EXEC":"","PDEN":["verrière figurée"],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52250"],"PARN":[],"DIMS":"h = 475 ; la = 180","BIBL":"","LIEU":"","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"chapelle Sainte-Anne","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"1909/04/14 : classé au titre immeuble","LMDP":"","SCLD":[],"SCLE":["1er quart 16e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["16e s."],"DBOR":["1993"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68be525387551d9886485c","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":["repeint"],"IMPL":"en village","LOCA":"","POP_DOSSIER_VERT":"","HIST":"","NOMS":["Fuselier Sandrine","de Massary Xavier"],"ATEL":[],"PETA":"peinture moderne","PREP":"","REFA":["IA52000209"],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":["armoiries"],"PPRO":"","POP_CONTIENT_GEOLOCALISATION":"oui","DENQ":["2003"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide","Le champ REFA IA52000209 pointe vers une notice absente"],"REFM":"","AFIG":[],"DENO":["lavabo en niche"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"oui","VOLS":"","MICR":"","MATR":["calcaire : taillé"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":[],"AIRE":"Laferté-sur-Amance","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["maçonnerie","taille de pierre"],"COOR":"0852501 ; 2322595","DMAJ":"2020-08-19","DMIS":"2005-07-01","REPR":["armoiries"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"","ETUD":"inventaire topographique","COM":["Guyonvelle"],"STAD":[],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété de la commune"],"REF":"IM52000594","INTE":"","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Guyonvelle"],"EMPL":"","VIDEO":["mem/0771/ivr21_03520489xa_p.jpg;mem/0771/ivr21_03520489xa_v.jpg"],"TICO":"lavabo en niche","ZONE":"Lambert0","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:18","updateMode":"import","_id":"5f3cd24870b2e90e1a395b3c","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":["http://www2.culture.gouv.fr/Wave/image/memoire/0771/ivr21_03520489xa_p.jpg"],"MEMOIRE":[{"ref":"IVR21_20035200489XA","name":"Vue d'ensemble.","_id":"5b843b43a9e4b6460c85d900","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_20035200489XA/ivr21_20035200489xa_p.jpg"}],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["auteur inconnu"],"AUTP":"Philippot, Jacques - © Inventaire général, ADAGP","DOSURL":"","DATE":[],"EXEC":"","PDEN":[],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52233"],"PARN":[],"DIMS":"h=102 ; la=82 ; pr=50","BIBL":"","LIEU":"","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"église paroissiale Saint-Luc","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"","LMDP":"","SCLD":[],"SCLE":["1ère moitié 16e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["16e s."],"DBOR":["2003"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68be525387551d98864862","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":[],"IMPL":"en village","LOCA":"","POP_DOSSIER_VERT":"","HIST":"","NOMS":["Fuselier Sandrine","de Massary Xavier"],"ATEL":[],"PETA":"","PREP":"Saint Dominique et sainte Catherine de Sienne sont au pied de la Vierge à l'Enfant qui tend un chapelet à saint Dominique.","REFA":["IA52000209"],"COORM":"","DOSS":["dossier individuel"],"NART":"","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":[],"PPRO":"","POP_CONTIENT_GEOLOCALISATION":"oui","DENQ":["2003"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide","Le champ REFA IA52000209 pointe vers une notice absente"],"REFM":"","AFIG":[],"DENO":["tableau"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"oui","VOLS":"","MICR":"","MATR":["toile : peinture à l'huile"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":["rectangulaire vertical"],"AIRE":"Laferté-sur-Amance","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["peinture"],"COOR":"0852501 ; 2322595","DMAJ":"2020-08-19","DMIS":"2005-07-01","REPR":["figures bibliques (saint Dominique, sainte Catherine de Sienne)"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"","ETUD":"inventaire topographique","COM":["Guyonvelle"],"STAD":[],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété de la commune"],"REF":"IM52000600","INTE":"","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Guyonvelle"],"EMPL":"","VIDEO":["mem/0771/ivr21_03520497xa_p.jpg;mem/0771/ivr21_03520497xa_v.jpg"],"TICO":"tableau : Vierge du Rosaire","ZONE":"Lambert0","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:18","updateMode":"import","_id":"5f3cd24870b2e90e1a395b40","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"Vierge du Rosaire","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":["http://www2.culture.gouv.fr/Wave/image/memoire/0771/ivr21_03520497xa_p.jpg"],"MEMOIRE":[{"ref":"IVR21_20035200497XA","name":"Vue d'ensemble.","_id":"5b843b43a9e4b6460c85d906","copy":"© Inventaire général, ADAGP","url":"memoire/IVR21_20035200497XA/ivr21_20035200497xa_p.jpg"}],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["auteur inconnu"],"AUTP":"Philippot, Jacques - © Inventaire général, ADAGP","DOSURL":"","DATE":[],"EXEC":"","PDEN":[],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52233"],"PARN":[],"DIMS":"h=175 ; la=125","BIBL":"","LIEU":"","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"église paroissiale Saint-Luc","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"","LMDP":"","SCLD":[],"SCLE":["1ère moitié 19e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["19e s."],"DBOR":["2003"]}},{"_index":"palissy1641337046672","_type":"palissy","_id":"5b68be525387551d9886486d","_score":2.0,"_source":{"POP_COORDONNEES":{"lon":0,"lat":0},"ETAT":[],"IMPL":"en village","LOCA":"","POP_DOSSIER_VERT":"","HIST":"Activité de 1826 à 1837.","NOMS":["Fuselier Sandrine","de Massary Xavier"],"ATEL":[],"PETA":"Manque une partie du décor de la coupe.","PREP":"","REFA":["IA52000210"],"COORM":"","DOSS":["dossier individuel"],"NART":"1","IMAGE":"","RENP":[],"REFE":[],"PRODUCTEUR":"Inventaire","INSC":["titre 1819-1838","poinçon de maître"],"PPRO":"","POP_CONTIENT_GEOLOCALISATION":"oui","DENQ":["2003"],"REFP":[],"POP_COMMENTAIRES":["Le champ CONTACT ne doit pas être vide","Le champ REFA IA52000210 pointe vers une notice absente"],"REFM":"","AFIG":[],"DENO":["calice","patène"],"RENV":[],"DEPL":"","CONTIENT_IMAGE":"non","VOLS":"","MICR":"","MATR":["argent : repoussé, ciselé, doré"],"POP_FLAGS":["DOSS_EMPTY","ETUD_EMPTY","COPY_EMPTY","TICO_EMPTY","CONTACT_EMPTY"],"WEB":"","POP_COORDINATES_POLYGON":{"coordinates":[],"type":"Polygon"},"THEM":"","PDIM":"","PROT":"","STRU":[],"AIRE":"Laferté-sur-Amance","LARC":"","DOSURLPDF":"","DPT":["52"],"DOMN":"","CATE":["orfèvrerie"],"COOR":"0854923 ; 2319892","DMAJ":"2020-08-19","DMIS":"2005-07-01","REPR":["représentation végétale (blé, raisin)","les vertus théologales"],"MOSA":"","DPT_LETTRE":["Haute-Marne"],"PINT":"","PINS":"poinçon de maître : NM","ETUD":"inventaire topographique","COM":["Pisseloup"],"STAD":[],"ORIG":"","MFICH":[],"COPY":"© Inventaire général","DOSADRS":"Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81","POP_ARRETE_PROTECTION":[],"STAT":["propriété de la commune"],"REF":"IM52000611","INTE":"","APPL":"","REG":["Grand Est"],"LINHA":[],"LIENS":[],"TOUT":"","CONTACT":"","REFMUS":[],"WCOM":["Pisseloup"],"EMPL":"","VIDEO":[""],"TICO":"calice et patène n° 1","ZONE":"Lambert0","LREG":[],"POP_DOSSIER_PROTECTION":[],"DESC":"","NUMP":"","HISTORIQUE":[{"date":"2020-8-19 7:18","updateMode":"import","_id":"5f3cd24870b2e90e1a395b44","nom":"Rotolo","prenom":"Antonella","email":"antonella.rotolo@culture.gouv.fr"}],"REFJOC":[],"WADRS":"","PAPP":"","TITR":"","__v":1,"PHOTO":"","PRECISION_JURIDIQUE":"","IMG":[],"MEMOIRE":[],"POP_IMPORT":["5f3ccf0670b2e90e1a38d668"],"AUTR":["Martin Charles Denis Noël (orfèvre)"],"AUTP":"","DOSURL":"","DATE":[],"EXEC":"Ile-de-France, 75, Paris","PDEN":[],"DOSURLP":"","ADRS":"","CANT":"","NUMA":"","INSEE":["52390"],"PARN":[],"DIMS":"h=29 ; la=15","BIBL":"","LIEU":"","BASE":"Patrimoine mobilier (Palissy)","JDAT":[],"MANQUANT":[],"EXPO":"","PERS":[],"IDAGR":[],"PART":[],"ACQU":"","EDIF":"église paroissiale Saint-Ferréol et Saint-Ferjeux","SOUR":"","OBS":"","WRENV":"","NINV":"","DPRO":"","LMDP":"","SCLD":[],"SCLE":["2e quart 19e siècle"],"PLOC":"Anciennement région de : Champagne-Ardenne","SCLX":["19e s."],"DBOR":["2003"]}}]},"status":200}]}
+{
+  "responses": [
+    {
+      "took": 2,
+      "timed_out": false,
+      "_shards": {
+        "total": 5,
+        "successful": 5,
+        "skipped": 0,
+        "failed": 0
+      },
+      "hits": {
+        "total": 2368,
+        "max_score": 2.0,
+        "hits": [
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68bbeb5387551d9882eaab",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [
+                "oeuvre restaurée"
+              ],
+              "IMPL": "en village",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "Verrière de la Genèse réalisée vers 1520, oeuvre apparentée à Ceffonds (52), Villeret (10), Chavanges (10) et Saint-Parres-aux-Tertres (10).",
+              "NOMS": [
+                "Decrock Bruno"
+              ],
+              "ATEL": [],
+              "PETA": "Ensemble assez restauré, notamment l'ange de l'expulsion du paradis terrestre ; bouche trous dans les bordures des lancettes ; éléments végétaux dans les têtes de lancettes",
+              "PREP": "",
+              "REFA": [],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [
+                "inscription",
+                "monogramme"
+              ],
+              "PPRO": "",
+              "POP_CONTIENT_GEOLOCALISATION": "oui",
+              "DENQ": [
+                "1989"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide",
+                "La projection utilisée n'est pas correct"
+              ],
+              "REFM": "",
+              "AFIG": [],
+              "DENO": [
+                "verrière"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "oui",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "verre transparent (coloré)",
+                "verre transparent (incolore) : grisaille sur verre, jaune d'argent"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [
+                "lancette (3, polylobé)",
+                "tympan ajouré"
+              ],
+              "AIRE": "Montier-en-Der",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "vitrail"
+              ],
+              "COOR": "0774740 ; 10091150",
+              "DMAJ": "2020-08-19",
+              "DMIS": "1993-07-23",
+              "REPR": [
+                "Adam, Créateur, Eve, le péché, Paradis terrestre, expulsion",
+                "ornementation : en encadrement (arcature, ornement à forme végétale), en bordure (ornement à forme végétale, phylactère, rameau), en fond (soleil)"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "inscription : sur phylactère dans les bordures (TOUT A DIEU) ; monogramme : de la Vierge et du Christ dans la bordure du tympan",
+              "ETUD": "recensement du vitrail",
+              "COM": [
+                "Puellemontier"
+              ],
+              "STAD": [
+                "avec oeuvre apparentée connue"
+              ],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété de la commune"
+              ],
+              "REF": "IM52000044",
+              "INTE": "à signaler",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Puellemontier"
+              ],
+              "EMPL": "baie 4",
+              "VIDEO": [
+                "mem/0295/ivr21_89520091xa_p.jpg;mem/0295/ivr21_89520091xa_v.jpg"
+              ],
+              "TICO": "verrière figurée : la genèse (baie 4)",
+              "ZONE": "Lambert1",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "Tympan à 2 soufflets et 7 écoinçons ; panneaux au registre central, dans les têtes de lancettes et au tympan, vitrerie losangée en complément entourée de bordures ; les bordures du tympan sont peintes en grisaille et jaune d'argent avec alternance de verres colorés",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:15",
+                  "updateMode": "import",
+                  "_id": "5f3cd18270b2e90e1a393af8",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "Genèse (la)",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [
+                "http://www2.culture.gouv.fr/Wave/image/memoire/0295/ivr21_89520091xa_p.jpg"
+              ],
+              "MEMOIRE": [
+                {
+                  "ref": "IVR21_19895200091XA",
+                  "name": "Registre figuré",
+                  "_id": "5b843a0da9e4b6460c8366b9",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19895200091XA/ivr21_19895200091xa_p.jpg"
+                },
+                {
+                  "ref": "IVR21_19875200002PA",
+                  "name": "Vue d'ensemble.",
+                  "_id": "5b843b47a9e4b6460c85de49",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19875200002PA/ivr21_19875200002pa_p.jpg"
+                }
+              ],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "auteur inconnu"
+              ],
+              "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+              "DOSURL": "",
+              "DATE": [
+                "1520 VERS"
+              ],
+              "EXEC": "",
+              "PDEN": [
+                "verrière figurée"
+              ],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52411"
+              ],
+              "PARN": [],
+              "DIMS": "h = 400 ; la = 200",
+              "BIBL": "",
+              "LIEU": "",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "église paroissiale de la Conception-de-la-Vierge",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "1909/07/09 : classé au titre immeuble",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "1er quart 16e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "16e s."
+              ],
+              "DBOR": [
+                "1993"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68bbeb5387551d9882eab3",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [
+                "manque"
+              ],
+              "IMPL": "en écart",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "",
+              "NOMS": [
+                "Decrock Bruno"
+              ],
+              "ATEL": [],
+              "PETA": "La partie supérieure du tympan (anges tenant les instruments de la Passion) est manquante ; la bordure du registre inférieur de la lancette droite est composée de fragments",
+              "PREP": "La comparution de saint Barthélémy et son supplice sont figurés dans la même scène.",
+              "REFA": [],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [
+                "inscription concernant l'iconographie",
+                "inscription concernant le commanditaire"
+              ],
+              "PPRO": "seuls les panneaux du 16e siècle sont classés, les autres sont inscrits au titre immeuble (1986 06 02)",
+              "POP_CONTIENT_GEOLOCALISATION": "oui",
+              "DENQ": [
+                "1989"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide",
+                "La projection utilisée n'est pas correct"
+              ],
+              "REFM": "",
+              "AFIG": [],
+              "DENO": [
+                "verrière"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "oui",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "verre transparent (coloré)",
+                "verre transparent (incolore) : grisaille sur verre, jaune d'argent"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [
+                "lancette (3, polylobé)",
+                "tympan ajouré"
+              ],
+              "AIRE": "Montier-en-Der",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "vitrail"
+              ],
+              "COOR": "0785620 ; 10087585",
+              "DMAJ": "2020-08-19",
+              "DMIS": "1993-07-23",
+              "REPR": [
+                "Crucifixion, ange : Instrument de la Passion, phylactère",
+                "figures (saint Nicolas, saint Barthélémy)",
+                "scène (saint Barthélémy, jugement, roi, supplice, martyre)",
+                "ornementation : en encadrement (ornement à forme architecturale), en bordure"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "inscription concernant l'iconographie : avec versets de la Bible au niveau de la Crucifixion et dans les têtes de lancettes ; inscription concernant l'iconographie : dans la scène du supplice de saint Bathélémy ; inscription concernant le commanditaire : incomplète, au soubassement",
+              "ETUD": "recensement du vitrail",
+              "COM": [
+                "Robert-Magny-Laneuville-à-Rémy"
+              ],
+              "STAD": [],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété de la commune"
+              ],
+              "REF": "IM52000052",
+              "INTE": "à signaler",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Robert-Magny-Laneuville-à-Rémy"
+              ],
+              "EMPL": "baie 5",
+              "VIDEO": [
+                "mem/0294/ivr21_89520024xa_p.jpg;mem/0294/ivr21_89520024xa_v.jpg"
+              ],
+              "TICO": "verrière (baie 5)",
+              "ZONE": "Lambert1",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "Tympan à 2 mouchettes ; 3 registres ; les anges tenant les instruments de la Passion (tympan) sont peints en grisaille et jaune d'argent ; vitrerie losangée en complément dans la lancette droite du registre inférieur (au milieu de bordures) et en partie supérieure du tympan",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:15",
+                  "updateMode": "import",
+                  "_id": "5f3cd18270b2e90e1a393afc",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [
+                "http://www2.culture.gouv.fr/Wave/image/memoire/0294/ivr21_89520024xa_p.jpg"
+              ],
+              "MEMOIRE": [
+                {
+                  "ref": "IVR21_19895200024XA",
+                  "name": "Les 2 registres supérieurs",
+                  "_id": "5b843a0da9e4b6460c8366c3",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19895200024XA/ivr21_19895200024xa_p.jpg"
+                },
+                {
+                  "ref": "IVR21_19855200064XA",
+                  "name": "Vue d'ensemble.",
+                  "_id": "5b843b47a9e4b6460c85de4b",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19855200064XA/ivr21_19855200064xa_p.jpg"
+                }
+              ],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "auteur inconnu"
+              ],
+              "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+              "DOSURL": "",
+              "DATE": [
+                "1550 VERS"
+              ],
+              "EXEC": "",
+              "PDEN": [],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52427"
+              ],
+              "PARN": [],
+              "DIMS": "h = 580 ; la = 240 ; bordure du registre inférieur de la lancette droite : la = 10",
+              "BIBL": "",
+              "LIEU": "Robert Magny",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "église paroissiale Saint-Barthélémy",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "1908/07/25 : classé au titre objet",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "milieu 16e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "16e s."
+              ],
+              "DBOR": [
+                "1993"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68bbeb5387551d9882eab5",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [
+                "oeuvre restaurée"
+              ],
+              "IMPL": "en écart",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "Verrière dont les panneaux des têtes de lancettes et du tympan datent du 1er quart du 16e siècle et ceux des lancettes (fondation du Rosaire) de la fin du 19e siècle",
+              "NOMS": [
+                "Decrock Bruno"
+              ],
+              "ATEL": [],
+              "PETA": "Le tympan est restauré ; la bordure des têtes de lancettes est fragmentaire",
+              "PREP": "Emploi d'un même carton inversé pour les anges musiciens du tympan.",
+              "REFA": [],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [
+                "monogramme"
+              ],
+              "PPRO": "seuls les panneaux du 16e siècle sont classés et l'église n'est pas protégée",
+              "POP_CONTIENT_GEOLOCALISATION": "non",
+              "DENQ": [
+                "1989"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide"
+              ],
+              "REFM": "PV005505",
+              "AFIG": [],
+              "DENO": [
+                "verrière"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "oui",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "verre transparent (coloré) : sanguine sur verre",
+                "verre transparent (incolore) : grisaille sur verre, jaune d'argent"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [
+                "lancette (2, polylobé)",
+                "tympan ajouré"
+              ],
+              "AIRE": "Blaiserives",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "vitrail"
+              ],
+              "COOR": "",
+              "DMAJ": "2020-08-19",
+              "DMIS": "1993-07-23",
+              "REPR": [
+                "Dieu le Père : tiare, colombe : symbole : Saint-Esprit, ange : musicien",
+                "ornementation : en encadrement (soleil), en bordure",
+                "scène (rosaire : fondation)"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "monogramme : du christ et de la Vierge dans les têtes de lancettes",
+              "ETUD": "recensement du vitrail",
+              "COM": [
+                "Blaiserives"
+              ],
+              "STAD": [],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété de la commune"
+              ],
+              "REF": "IM52000054",
+              "INTE": "à signaler",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Blaiserives"
+              ],
+              "EMPL": "baie 3",
+              "VIDEO": [
+                "mem/0395/ivr21_89520848za_p.jpg;mem/0395/ivr21_89520848za_v.jpg"
+              ],
+              "TICO": "verrière (baie 3)",
+              "ZONE": "",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "Tympan à 5 ajours ; les fragments de bordure des têtes de lancettes et les anges des ajours latéraux du tympan sont peints en grisaille et jaune d'argent ; emploi de sanguine sur verre pour la chevelure des anges musiciens du tympan",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:15",
+                  "updateMode": "import",
+                  "_id": "5f3cd18270b2e90e1a393b00",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [
+                "http://www2.culture.gouv.fr/Wave/image/memoire/0395/ivr21_89520848za_p.jpg"
+              ],
+              "MEMOIRE": [
+                {
+                  "ref": "IVR21_19895200848ZA",
+                  "name": "Tympan.",
+                  "_id": "5b843a0da9e4b6460c836690",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19895200848ZA/ivr21_19895200848za_p.jpg"
+                }
+              ],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "Tiercelin (atelier de, peintre-verrier)"
+              ],
+              "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+              "DOSURL": "",
+              "DATE": [],
+              "EXEC": "",
+              "PDEN": [],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52178"
+              ],
+              "PARN": [],
+              "DIMS": "h = 320 ; la = 180",
+              "BIBL": "",
+              "LIEU": "Blaiserives",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "église paroissiale Saint-Louvent",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "1922/12/02 : classé au titre objet",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "1er quart 16e siècle",
+                "4e quart 19e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "16e s.",
+                "19e s."
+              ],
+              "DBOR": [
+                "1993"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68bbeb5387551d9882eab8",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [
+                "partie en remploi",
+                "manque",
+                "oeuvre restaurée"
+              ],
+              "IMPL": "en écart",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "Verrière dont les panneaux du tympan datent du 1er quart du 16e siècle ; ceux des lancettes (scènes de la Passion) ont été réalisés par l'atelier Tiercelin en 1878",
+              "NOMS": [
+                "Decrock Bruno"
+              ],
+              "ATEL": [],
+              "PETA": "Remploi d'une partie supérieure de Déploration au quadrilobe du tympan (bustes de la Vierge et de Madeleine) avec buste d'un saint évêque utilisé en bouche-trou à gauche et agneau de saint Jean-Baptiste remonté à la partie supérieure ; éléments de bordure dans les mouchettes et les écoinçons ; ensemble restauré en 1878",
+              "PREP": "",
+              "REFA": [],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [
+                "inscription concernant une restauration"
+              ],
+              "PPRO": "seuls les panneaux du 16e siècle sont classés et l'église n'est pas protégée",
+              "POP_CONTIENT_GEOLOCALISATION": "non",
+              "DENQ": [
+                "1989"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide"
+              ],
+              "REFM": "PV005505",
+              "AFIG": [],
+              "DENO": [
+                "verrière"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "oui",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "verre transparent (coloré)",
+                "verre transparent (incolore) : grisaille sur verre, jaune d'argent"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [
+                "lancette (2, polylobé)",
+                "tympan ajouré"
+              ],
+              "AIRE": "Blaiserives",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "vitrail"
+              ],
+              "COOR": "",
+              "DMAJ": "2020-08-19",
+              "DMIS": "1993-07-23",
+              "REPR": [
+                "Déploration",
+                "figure (saint : évêque, Agneau mystique : saint Jean-Baptiste)",
+                "Passion",
+                "ornementation : en bordure (candélabre, bucrane)"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "inscription concernant une restauration : date (1878) de restauration et inscription de repose placées dans le lobe inférieur du tympan ; inscription concernant le commanditaire : des panneaux des lancettes, au soubassement (19e siècle)",
+              "ETUD": "recensement du vitrail",
+              "COM": [
+                "Blaiserives"
+              ],
+              "STAD": [],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété de la commune"
+              ],
+              "REF": "IM52000057",
+              "INTE": "à signaler",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Blaiserives"
+              ],
+              "EMPL": "baie 8",
+              "VIDEO": [
+                "mem/0395/ivr21_89520850za_p.jpg;mem/0395/ivr21_89520850za_v.jpg"
+              ],
+              "TICO": "verrière (baie 8)",
+              "ZONE": "",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "Tympan à 1 quadrilobe, 2 mouchettes et écoinçons ; les éléments de bordure des mouchettes et des écoinçons du tympan sont peints en grisaille et jaune d'argent",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:15",
+                  "updateMode": "import",
+                  "_id": "5f3cd18270b2e90e1a393b04",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [
+                "http://www2.culture.gouv.fr/Wave/image/memoire/0395/ivr21_89520850za_p.jpg"
+              ],
+              "MEMOIRE": [
+                {
+                  "ref": "IVR21_19895200850ZA",
+                  "name": "Tympan.",
+                  "_id": "5b843a0da9e4b6460c83668e",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19895200850ZA/ivr21_19895200850za_p.jpg"
+                }
+              ],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "Tiercelin (atelier de, peintre-verrier)"
+              ],
+              "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+              "DOSURL": "",
+              "DATE": [
+                "1878"
+              ],
+              "EXEC": "",
+              "PDEN": [],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52178"
+              ],
+              "PARN": [],
+              "DIMS": "h = 200 ; la = 120",
+              "BIBL": "",
+              "LIEU": "Blaiserives",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "église paroissiale Saint-Louvent",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "1922/12/02 : classé au titre objet",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "1er quart 16e siècle",
+                "3e quart 19e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "16e s.",
+                "19e s."
+              ],
+              "DBOR": [
+                "1993"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68bbeb5387551d9882eabe",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [
+                "partie en remploi",
+                "oeuvre composite",
+                "manque"
+              ],
+              "IMPL": "en écart",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "2 rondels de la fin du 16e siècle de provenance inconnue remployés au milieu d'une verrière décorative du 20e siècle",
+              "NOMS": [
+                "Decrock Bruno"
+              ],
+              "ATEL": [],
+              "PETA": "Remploi de 2 rondels au centre du registre supérieur des lancettes latérales ; le rondel de la lancette droite (charité de saint Martin) est en grande partie détruit",
+              "PREP": "",
+              "REFA": [],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [],
+              "PPRO": "",
+              "POP_CONTIENT_GEOLOCALISATION": "non",
+              "DENQ": [
+                "1989"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide"
+              ],
+              "REFM": "",
+              "AFIG": [],
+              "DENO": [
+                "verrière"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "non",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "verre transparent (coloré)",
+                "verre transparent (incolore) : grisaille sur verre, jaune d'argent, émail sur verre"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [
+                "lancette (3)"
+              ],
+              "AIRE": "Fayl-la-Forêt",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "vitrail"
+              ],
+              "COOR": "",
+              "DMAJ": "2020-08-19",
+              "DMIS": "1993-07-23",
+              "REPR": [
+                "figure (saint Martin)",
+                "scène (saint Martin, charité)",
+                "ornement à forme géométrique",
+                "représentation d'objet (symbole, Instrument de la Passion)"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "",
+              "ETUD": "recensement du vitrail",
+              "COM": [
+                "Pressigny"
+              ],
+              "STAD": [],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété de la commune"
+              ],
+              "REF": "IM52000063",
+              "INTE": "à signaler",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Pressigny"
+              ],
+              "EMPL": "baie 0",
+              "VIDEO": [
+                ""
+              ],
+              "TICO": "verrière (baie 0)",
+              "ZONE": "",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "Lancettes murées à la partie inférieure ; 3 registres dans les lancettes latérales ; rondels en grisaille, jaune d'argent et émail sur verre en partie supérieure des lancettes latérales, verrière géométrique et symbolique (lancette centrale) peinte en verre transparent (coloré) partout ailleurs",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:15",
+                  "updateMode": "import",
+                  "_id": "5f3cd18270b2e90e1a393b08",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [],
+              "MEMOIRE": [],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "auteur inconnu"
+              ],
+              "AUTP": "",
+              "DOSURL": "",
+              "DATE": [],
+              "EXEC": "",
+              "PDEN": [],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52406"
+              ],
+              "PARN": [],
+              "DIMS": "h = 180 ; la = 70 ; rondel : d = 20",
+              "BIBL": "",
+              "LIEU": "Poinson-lès-Fayl",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "église paroissiale Saint-Martin",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "1925/10/21 : inscrit au titre immeuble",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "4e quart 16e siècle",
+                "20e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "16e s.",
+                "20e s."
+              ],
+              "DBOR": [
+                "1993"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68bbeb5387551d9882eac0",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [
+                "oeuvre restaurée"
+              ],
+              "IMPL": "en ville",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "Verrière réalisée vers 1503, don de Girard d'Alichamp, chanoine de Saint-Laurent ; elle est apparentée à celle de Ricey-Bas (10) ; le soubassement décoratif coloré pourrait dater du 19e siècle.",
+              "NOMS": [
+                "Decrock Bruno"
+              ],
+              "ATEL": [],
+              "PETA": "La partie inférieure du chanoine donateur est restaurée",
+              "PREP": "Emploi d'un même carton inversé pour les 2 anges recueillant le sang du Christ.",
+              "REFA": [],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [
+                "inscription concernant l'iconographie",
+                "armoiries",
+                "monogramme"
+              ],
+              "PPRO": "",
+              "POP_CONTIENT_GEOLOCALISATION": "oui",
+              "DENQ": [
+                "1989"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide",
+                "La projection utilisée n'est pas correct"
+              ],
+              "REFM": "",
+              "AFIG": [],
+              "DENO": [
+                "verrière"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "oui",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "verre transparent (coloré) : gravé"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [
+                "lancette (2, polylobé)",
+                "tympan ajouré"
+              ],
+              "AIRE": "Joinville",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "vitrail"
+              ],
+              "COOR": "0807255 ; 10085575",
+              "DMAJ": "2020-08-19",
+              "DMIS": "1993-07-23",
+              "REPR": [
+                "Calvaire, ange : sang, Vierge à l'Enfant, croissant de lune, rayons lumineux",
+                "scène (chanoine : chapelle, en donateur, sainte Anne, phylactère)",
+                "figure (homme : clergé)",
+                "ornementation : en encadrement (ornement à forme architecturale, fleur, putto, armoiries), en soubassement, fond mosaïqué"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "inscription concernant l'iconographie : sur la banderole portée par le religieux figurant au registre inférieur de la lancette gauche (inscription latine à la louange du Christ rédempteur) ; armoiries identifiées : de Gérard Dalichamp, père du donateur (à gauche) et de sa femme Guillemette Perreau (à droite), au soubassement ; monogramme : du Christ dans les têtes de lancettes et l'amortissement",
+              "ETUD": "recensement du vitrail",
+              "COM": [
+                "Joinville"
+              ],
+              "STAD": [
+                "avec oeuvre apparentée connue"
+              ],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété publique"
+              ],
+              "REF": "IM52000065",
+              "INTE": "à signaler",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Joinville"
+              ],
+              "EMPL": "baie 0",
+              "VIDEO": [
+                "mem/0294/ivr21_89520068xa_p.jpg;mem/0294/ivr21_89520068xa_v.jpg"
+              ],
+              "TICO": "verrière figurée : le calvaire (baie 0)",
+              "ZONE": "Lambert1",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "Tympan à 1 soufflet et 2 écoinçons ; 2 registres à gauche ; verre gravé dans la scène au chanoine donateur (registre supérieur de la lancette gauche)",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:15",
+                  "updateMode": "import",
+                  "_id": "5f3cd18270b2e90e1a393b0c",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "Calvaire (le)",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [
+                "http://www2.culture.gouv.fr/Wave/image/memoire/0294/ivr21_89520068xa_p.jpg"
+              ],
+              "MEMOIRE": [
+                {
+                  "ref": "IVR21_19895200068XA",
+                  "name": "Partie centrale figurée",
+                  "_id": "5b843a0da9e4b6460c8366c2",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19895200068XA/ivr21_19895200068xa_p.jpg"
+                }
+              ],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "auteur inconnu"
+              ],
+              "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+              "DOSURL": "",
+              "DATE": [
+                "1503 VERS"
+              ],
+              "EXEC": "",
+              "PDEN": [
+                "verrière figurée"
+              ],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52250"
+              ],
+              "PARN": [],
+              "DIMS": "h = 450 ; la = 125",
+              "BIBL": "",
+              "LIEU": "",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "chapelle Sainte-Anne",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "1909/04/14 : classé au titre immeuble",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "1er quart 16e siècle",
+                "19e siècle (?)"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "16e s.",
+                "19e s."
+              ],
+              "DBOR": [
+                "1993"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68bbeb5387551d9882eac3",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [
+                "oeuvre restaurée"
+              ],
+              "IMPL": "en ville",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "Verrière de la Vie de la Vierge réalisée vers 1505, don de Henri de Lorraine, évêque de Metz ; le panneau du donateur est apparenté à une verrière disparue de la nef de la cathédrale de Troyes (10) ; l'Annonciation est apparentée à Herbisse (10) notamment.",
+              "NOMS": [
+                "Decrock Bruno"
+              ],
+              "ATEL": [],
+              "PETA": "Ensemble assez restauré, notamment les inscriptions et le fond de mosaïque du tympan",
+              "PREP": "",
+              "REFA": [],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [
+                "inscription concernant l'iconographie",
+                "armoiries"
+              ],
+              "PPRO": "",
+              "POP_CONTIENT_GEOLOCALISATION": "oui",
+              "DENQ": [
+                "1989"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide",
+                "La projection utilisée n'est pas correct"
+              ],
+              "REFM": "",
+              "AFIG": [],
+              "DENO": [
+                "verrière"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "oui",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "verre transparent (coloré) : gravé"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [
+                "lancette (3, polylobé)",
+                "tympan ajouré"
+              ],
+              "AIRE": "Joinville",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "vitrail"
+              ],
+              "COOR": "0807255 ; 10085575",
+              "DMAJ": "2020-08-19",
+              "DMIS": "1993-07-23",
+              "REPR": [
+                "Nativité de la Vierge, Présentation de la Vierge au Temple, Mariage de la Vierge, Annonciation, Nativité",
+                "scène (homme : en donateur, saint Etienne)",
+                "ornementation : en encadrement (ornement à forme architecturale, dais), fond mosaïqué"
+              ],
+              "MOSA": "mosa-imgCHAM : Images de Champagne-Ardenne",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "inscription concernant l'iconographie : inscription narrative sous chaque scène (sauf au registre inférieur) ; armoiries identifiées : d'Henri de Lorraine au panneau du donateur, et répétées dans chaque soufflet du tympan",
+              "ETUD": "recensement du vitrail",
+              "COM": [
+                "Joinville"
+              ],
+              "STAD": [
+                "avec oeuvre apparentée connue"
+              ],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété publique"
+              ],
+              "REF": "IM52000068",
+              "INTE": "à signaler",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Joinville"
+              ],
+              "EMPL": "baie 3",
+              "VIDEO": [
+                "mem/0294/ivr21_89520071xa_p.jpg;mem/0294/ivr21_89520071xa_v.jpg"
+              ],
+              "TICO": "verrière figurée : la Vie de la Vierge (baie 3)",
+              "ZONE": "Lambert1",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "Tympan à 3 soufflets et écoinçons ; 2 registres ; verres gravés pour le nimbe de la Vierge (scène de sa naissance) et dans les armoiries du registre inférieur (panneau du donateur)",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:15",
+                  "updateMode": "import",
+                  "_id": "5f3cd18270b2e90e1a393b10",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "Vie de la Vierge (la)",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [
+                "http://www2.culture.gouv.fr/Wave/image/memoire/0294/ivr21_89520071xa_p.jpg"
+              ],
+              "MEMOIRE": [
+                {
+                  "ref": "IVR21_19895200071XA",
+                  "name": "Les 2 lancettes gauches",
+                  "_id": "5b843a0da9e4b6460c8366bf",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19895200071XA/ivr21_19895200071xa_p.jpg"
+                },
+                {
+                  "ref": "IVR21_19855200048VA",
+                  "name": "Vue dans l'abside.",
+                  "_id": "5b843b47a9e4b6460c85de4a",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_19855200048VA/ivr21_19855200048va_p.jpg"
+                }
+              ],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "auteur inconnu"
+              ],
+              "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+              "DOSURL": "",
+              "DATE": [
+                "1505 VERS"
+              ],
+              "EXEC": "",
+              "PDEN": [
+                "verrière figurée"
+              ],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52250"
+              ],
+              "PARN": [],
+              "DIMS": "h = 475 ; la = 180",
+              "BIBL": "",
+              "LIEU": "",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "chapelle Sainte-Anne",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "1909/04/14 : classé au titre immeuble",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "1er quart 16e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "16e s."
+              ],
+              "DBOR": [
+                "1993"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68be525387551d9886485c",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [
+                "repeint"
+              ],
+              "IMPL": "en village",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "",
+              "NOMS": [
+                "Fuselier Sandrine",
+                "de Massary Xavier"
+              ],
+              "ATEL": [],
+              "PETA": "peinture moderne",
+              "PREP": "",
+              "REFA": [
+                "IA52000209"
+              ],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [
+                "armoiries"
+              ],
+              "PPRO": "",
+              "POP_CONTIENT_GEOLOCALISATION": "oui",
+              "DENQ": [
+                "2003"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide",
+                "Le champ REFA IA52000209 pointe vers une notice absente"
+              ],
+              "REFM": "",
+              "AFIG": [],
+              "DENO": [
+                "lavabo en niche"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "oui",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "calcaire : taillé"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [],
+              "AIRE": "Laferté-sur-Amance",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "maçonnerie",
+                "taille de pierre"
+              ],
+              "COOR": "0852501 ; 2322595",
+              "DMAJ": "2020-08-19",
+              "DMIS": "2005-07-01",
+              "REPR": [
+                "armoiries"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "",
+              "ETUD": "inventaire topographique",
+              "COM": [
+                "Guyonvelle"
+              ],
+              "STAD": [],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété de la commune"
+              ],
+              "REF": "IM52000594",
+              "INTE": "",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Guyonvelle"
+              ],
+              "EMPL": "",
+              "VIDEO": [
+                "mem/0771/ivr21_03520489xa_p.jpg;mem/0771/ivr21_03520489xa_v.jpg"
+              ],
+              "TICO": "lavabo en niche",
+              "ZONE": "Lambert0",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:18",
+                  "updateMode": "import",
+                  "_id": "5f3cd24870b2e90e1a395b3c",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [
+                "http://www2.culture.gouv.fr/Wave/image/memoire/0771/ivr21_03520489xa_p.jpg"
+              ],
+              "MEMOIRE": [
+                {
+                  "ref": "IVR21_20035200489XA",
+                  "name": "Vue d'ensemble.",
+                  "_id": "5b843b43a9e4b6460c85d900",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_20035200489XA/ivr21_20035200489xa_p.jpg"
+                }
+              ],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "auteur inconnu"
+              ],
+              "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+              "DOSURL": "",
+              "DATE": [],
+              "EXEC": "",
+              "PDEN": [],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52233"
+              ],
+              "PARN": [],
+              "DIMS": "h=102 ; la=82 ; pr=50",
+              "BIBL": "",
+              "LIEU": "",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "église paroissiale Saint-Luc",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "1ère moitié 16e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "16e s."
+              ],
+              "DBOR": [
+                "2003"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68be525387551d98864862",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [],
+              "IMPL": "en village",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "",
+              "NOMS": [
+                "Fuselier Sandrine",
+                "de Massary Xavier"
+              ],
+              "ATEL": [],
+              "PETA": "",
+              "PREP": "Saint Dominique et sainte Catherine de Sienne sont au pied de la Vierge à l'Enfant qui tend un chapelet à saint Dominique.",
+              "REFA": [
+                "IA52000209"
+              ],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [],
+              "PPRO": "",
+              "POP_CONTIENT_GEOLOCALISATION": "oui",
+              "DENQ": [
+                "2003"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide",
+                "Le champ REFA IA52000209 pointe vers une notice absente"
+              ],
+              "REFM": "",
+              "AFIG": [],
+              "DENO": [
+                "tableau"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "oui",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "toile : peinture à l'huile"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [
+                "rectangulaire vertical"
+              ],
+              "AIRE": "Laferté-sur-Amance",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "peinture"
+              ],
+              "COOR": "0852501 ; 2322595",
+              "DMAJ": "2020-08-19",
+              "DMIS": "2005-07-01",
+              "REPR": [
+                "figures bibliques (saint Dominique, sainte Catherine de Sienne)"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "",
+              "ETUD": "inventaire topographique",
+              "COM": [
+                "Guyonvelle"
+              ],
+              "STAD": [],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété de la commune"
+              ],
+              "REF": "IM52000600",
+              "INTE": "",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Guyonvelle"
+              ],
+              "EMPL": "",
+              "VIDEO": [
+                "mem/0771/ivr21_03520497xa_p.jpg;mem/0771/ivr21_03520497xa_v.jpg"
+              ],
+              "TICO": "tableau : Vierge du Rosaire",
+              "ZONE": "Lambert0",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:18",
+                  "updateMode": "import",
+                  "_id": "5f3cd24870b2e90e1a395b40",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "Vierge du Rosaire",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [
+                "http://www2.culture.gouv.fr/Wave/image/memoire/0771/ivr21_03520497xa_p.jpg"
+              ],
+              "MEMOIRE": [
+                {
+                  "ref": "IVR21_20035200497XA",
+                  "name": "Vue d'ensemble.",
+                  "_id": "5b843b43a9e4b6460c85d906",
+                  "copy": "© Inventaire général, ADAGP",
+                  "url": "memoire/IVR21_20035200497XA/ivr21_20035200497xa_p.jpg"
+                }
+              ],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "auteur inconnu"
+              ],
+              "AUTP": "Philippot, Jacques - © Inventaire général, ADAGP",
+              "DOSURL": "",
+              "DATE": [],
+              "EXEC": "",
+              "PDEN": [],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52233"
+              ],
+              "PARN": [],
+              "DIMS": "h=175 ; la=125",
+              "BIBL": "",
+              "LIEU": "",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "église paroissiale Saint-Luc",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "1ère moitié 19e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "19e s."
+              ],
+              "DBOR": [
+                "2003"
+              ]
+            }
+          },
+          {
+            "_index": "palissy1641337046672",
+            "_type": "palissy",
+            "_id": "5b68be525387551d9886486d",
+            "_score": 2.0,
+            "_source": {
+              "POP_COORDONNEES": {
+                "lon": 0,
+                "lat": 0
+              },
+              "ETAT": [],
+              "IMPL": "en village",
+              "LOCA": "",
+              "POP_DOSSIER_VERT": "",
+              "HIST": "Activité de 1826 à 1837.",
+              "NOMS": [
+                "Fuselier Sandrine",
+                "de Massary Xavier"
+              ],
+              "ATEL": [],
+              "PETA": "Manque une partie du décor de la coupe.",
+              "PREP": "",
+              "REFA": [
+                "IA52000210"
+              ],
+              "COORM": "",
+              "DOSS": [
+                "dossier individuel"
+              ],
+              "NART": "1",
+              "IMAGE": "",
+              "RENP": [],
+              "REFE": [],
+              "PRODUCTEUR": "Inventaire",
+              "INSC": [
+                "titre 1819-1838",
+                "poinçon de maître"
+              ],
+              "PPRO": "",
+              "POP_CONTIENT_GEOLOCALISATION": "oui",
+              "DENQ": [
+                "2003"
+              ],
+              "REFP": [],
+              "POP_COMMENTAIRES": [
+                "Le champ CONTACT ne doit pas être vide",
+                "Le champ REFA IA52000210 pointe vers une notice absente"
+              ],
+              "REFM": "",
+              "AFIG": [],
+              "DENO": [
+                "calice",
+                "patène"
+              ],
+              "RENV": [],
+              "DEPL": "",
+              "CONTIENT_IMAGE": "non",
+              "VOLS": "",
+              "MICR": "",
+              "MATR": [
+                "argent : repoussé, ciselé, doré"
+              ],
+              "POP_FLAGS": [
+                "DOSS_EMPTY",
+                "ETUD_EMPTY",
+                "COPY_EMPTY",
+                "TICO_EMPTY",
+                "CONTACT_EMPTY"
+              ],
+              "WEB": "",
+              "POP_COORDINATES_POLYGON": {
+                "coordinates": [],
+                "type": "Polygon"
+              },
+              "THEM": "",
+              "PDIM": "",
+              "PROT": "",
+              "STRU": [],
+              "AIRE": "Laferté-sur-Amance",
+              "LARC": "",
+              "DOSURLPDF": "",
+              "DPT": [
+                "52"
+              ],
+              "DOMN": "",
+              "CATE": [
+                "orfèvrerie"
+              ],
+              "COOR": "0854923 ; 2319892",
+              "DMAJ": "2020-08-19",
+              "DMIS": "2005-07-01",
+              "REPR": [
+                "représentation végétale (blé, raisin)",
+                "les vertus théologales"
+              ],
+              "MOSA": "",
+              "DPT_LETTRE": [
+                "Haute-Marne"
+              ],
+              "PINT": "",
+              "PINS": "poinçon de maître : NM",
+              "ETUD": "inventaire topographique",
+              "COM": [
+                "Pisseloup"
+              ],
+              "STAD": [],
+              "ORIG": "",
+              "MFICH": [],
+              "COPY": "© Inventaire général",
+              "DOSADRS": "Conseil régional de Champagne-Ardenne - Service chargé de l'inventaire£3, rue du Faubourg Saint-Antoine 51037 Châlons-en-Champagne - 03.26.70.36.81",
+              "POP_ARRETE_PROTECTION": [],
+              "STAT": [
+                "propriété de la commune"
+              ],
+              "REF": "IM52000611",
+              "INTE": "",
+              "APPL": "",
+              "REG": [
+                "Grand Est"
+              ],
+              "LINHA": [],
+              "LIENS": [],
+              "TOUT": "",
+              "CONTACT": "",
+              "REFMUS": [],
+              "WCOM": [
+                "Pisseloup"
+              ],
+              "EMPL": "",
+              "VIDEO": [
+                ""
+              ],
+              "TICO": "calice et patène n° 1",
+              "ZONE": "Lambert0",
+              "LREG": [],
+              "POP_DOSSIER_PROTECTION": [],
+              "DESC": "",
+              "NUMP": "",
+              "HISTORIQUE": [
+                {
+                  "date": "2020-8-19 7:18",
+                  "updateMode": "import",
+                  "_id": "5f3cd24870b2e90e1a395b44",
+                  "nom": "Rotolo",
+                  "prenom": "Antonella",
+                  "email": "antonella.rotolo@culture.gouv.fr"
+                }
+              ],
+              "REFJOC": [],
+              "WADRS": "",
+              "PAPP": "",
+              "TITR": "",
+              "__v": 1,
+              "PHOTO": "",
+              "PRECISION_JURIDIQUE": "",
+              "IMG": [],
+              "MEMOIRE": [],
+              "POP_IMPORT": [
+                "5f3ccf0670b2e90e1a38d668"
+              ],
+              "AUTR": [
+                "Martin Charles Denis Noël (orfèvre)"
+              ],
+              "AUTP": "",
+              "DOSURL": "",
+              "DATE": [],
+              "EXEC": "Ile-de-France, 75, Paris",
+              "PDEN": [],
+              "DOSURLP": "",
+              "ADRS": "",
+              "CANT": "",
+              "NUMA": "",
+              "INSEE": [
+                "52390"
+              ],
+              "PARN": [],
+              "DIMS": "h=29 ; la=15",
+              "BIBL": "",
+              "LIEU": "",
+              "BASE": "Patrimoine mobilier (Palissy)",
+              "JDAT": [],
+              "MANQUANT": [],
+              "EXPO": "",
+              "PERS": [],
+              "IDAGR": [],
+              "PART": [],
+              "ACQU": "",
+              "EDIF": "église paroissiale Saint-Ferréol et Saint-Ferjeux",
+              "SOUR": "",
+              "OBS": "",
+              "WRENV": "",
+              "NINV": "",
+              "DPRO": "",
+              "LMDP": "",
+              "SCLD": [],
+              "SCLE": [
+                "2e quart 19e siècle"
+              ],
+              "PLOC": "Anciennement région de : Champagne-Ardenne",
+              "SCLX": [
+                "19e s."
+              ],
+              "DBOR": [
+                "2003"
+              ]
+            }
+          }
+        ]
+      },
+      "status": 200
+    }
+  ]
+}
