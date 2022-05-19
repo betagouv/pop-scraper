@@ -1,7 +1,7 @@
 import scrapy
 import json
 import logging
-from pop_scraper.items import Objet
+from pop_scraper.items import Objet, Photo
 from pop_scraper.pop_api import build_query
 
 class PopApiSpider(scrapy.Spider):
@@ -35,4 +35,12 @@ class PopApiSpider(scrapy.Spider):
       for field in objet.fields:
         objet[field] = hit["_source"].get(field)
       yield objet
+      for idx, memoire_fields in enumerate(hit["_source"].get("MEMOIRE", [])):
+        photo = Photo(ref_palissy=objet["REF"], position=idx)
+        for field in photo.fields:
+          if field in ["ref_palissy", "position"]:
+            continue
+          photo[field] = memoire_fields.get(field)
+        yield photo
+
 

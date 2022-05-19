@@ -68,7 +68,7 @@ class Objet(scrapy.Item):
   LREG = scrapy.Field()
   MANQUANT = scrapy.Field()
   MATR = scrapy.Field()
-  MEMOIRE = scrapy.Field()
+  # MEMOIRE = scrapy.Field()
   MFICH = scrapy.Field()
   MICR = scrapy.Field()
   MOSA = scrapy.Field()
@@ -133,3 +133,11 @@ class Objet(scrapy.Item):
   WEB = scrapy.Field()
   WRENV = scrapy.Field()
   ZONE = scrapy.Field()
+
+class Photo(scrapy.Item):
+  ref = scrapy.Field()
+  ref_palissy = scrapy.Field()
+  name = scrapy.Field()
+  copy = scrapy.Field()
+  url = scrapy.Field()
+  position = scrapy.Field(serializer=int)
