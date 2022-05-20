@@ -32,7 +32,8 @@ class PopApiSpider(scrapy.Spider):
 
   def parse(self, response):
     res = response.json()
-    if "responses" not in res:
+    # logging.debug(f"got response {res}")
+    if "responses" not in res or len(res["responses"]) < 1 or "hits" not in res["responses"][0]:
       logging.error(f"error while parsing {res}")
       raise Exception("error!")
     total_hits = res["responses"][0]["hits"]["total"]
