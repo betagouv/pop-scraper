@@ -1,14 +1,12 @@
-from pop_scraper.settings import ITEMS_PER_REQUEST
-
-def build_query(base_pop, cursor, exact_ref=None):
-  return {
+def build_query(base_pop, search_after=None, exact_ref=None, items_per_request=100):
+  q = {
     "query": {
       "bool": {
         "should": build_shouldas(base_pop, exact_ref)
       }
     },
-    "size": ITEMS_PER_REQUEST,
-    "from": cursor,
+    "size": items_per_request,
+    "sort": "_id",
     "_source": {
       "excludes": [
         "ADRS2",
@@ -20,6 +18,9 @@ def build_query(base_pop, cursor, exact_ref=None):
       ]
     }
   }
+  if search_after is not None:
+    q["search_after"] = [search_after]
+  return q
 
 def build_shouldas(base_pop, exact_ref):
   if exact_ref is not None:
