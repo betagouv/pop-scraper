@@ -9,6 +9,9 @@ license = "MIT"
 python = "^3.9"
 requests = "^2.27.1"
 Scrapy = "^2.6.1"
+scrapinghub = "^2.4.0"
+jupyterlab = "^3.4.2"
+pandas = "^1.4.2"
 
 [tool.poetry.dev-dependencies]
 
