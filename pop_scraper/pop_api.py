@@ -6,7 +6,17 @@ def build_query(base_pop, search_after=None, exact_ref=None, items_per_request=1
       }
     },
     "size": items_per_request,
-    "sort": "_id"
+    "sort": "_id",
+    "_source": {
+      "excludes": [
+        "ADRS2",
+        "COM2",
+        "EDIF2",
+        "EMPL2",
+        "INSEE2",
+        "LBASE2"
+      ]
+    }
   }
   if search_after is not None:
     q["search_after"] = [search_after]
