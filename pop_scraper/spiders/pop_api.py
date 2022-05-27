@@ -9,17 +9,32 @@ class PopApiSpider(scrapy.Spider):
   allowed_domains = ['api.pop.culture.gouv.fr']
   start_urls = ['http://api.pop.culture.gouv.fr/']
 
-  def __init__(self, base_pop="palissy", max_items=None, items_per_request=None, ref=None, *args, **kwargs):
+  def __init__(
+    self,
+    base_pop="palissy",
+    max_items=None,
+    items_per_request=None,
+    ref=None,
+    search_after=None,
+    *args,
+    **kwargs
+  ):
     super(PopApiSpider, self).__init__(*args, **kwargs)
     self.max_items_from_args = max_items
     self.items_per_request_from_args = items_per_request
     self.base_pop = base_pop
     self.exact_ref = ref
+    self.initial_search_after = search_after
     if base_pop not in ["palissy", "memoire"]:
       raise "unsupported base_pop (should be palissy or memoire)"
 
   def start_requests(self):
-    return [self.build_request(current_items_count=0)]
+    return [
+      self.build_request(
+        current_items_count=0,
+        search_after=self.initial_search_after
+      )
+    ]
 
   def build_request(self, search_after=None, current_items_count=0):
     query = build_query(
@@ -39,9 +54,19 @@ class PopApiSpider(scrapy.Spider):
   def parse(self, response):
     res = response.json()
     # logging.debug(f"got response {res}")
-    if "responses" not in res or len(res["responses"]) < 1 or "hits" not in res["responses"][0]:
+
+    if "responses" not in res or len(res["responses"]) < 1:
       logging.error(f"error while parsing {res}")
       raise Exception("error!")
+
+    elif "error" in res["responses"][0] and res["responses"][0].get("status") == 429:
+      logging.error(f"error 429 too many requests : {res}")
+      raise Exception("error!")
+
+    elif "hits" not in res["responses"][0]:
+      logging.error(f"error while parsing {res}")
+      raise Exception("error!")
+
     total_hits = res["responses"][0]["hits"]["total"]
     if response.meta["search_after"] is None:
       logging.info(f"STARTING CRAWL, total hits: {total_hits}")
@@ -77,4 +102,3 @@ class PopApiSpider(scrapy.Spider):
       return int(self.items_per_request_from_args)
 
     return self.settings.getint("ITEMS_PER_REQUEST", 1000)
-
