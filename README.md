@@ -34,3 +34,7 @@ Limite le nombre d'objets à parcourir
 Scrappe un seul objet grace à sa référence Palissy
 
 `poetry run scrapy crawl pop_api -a ref=PM72000741`
+
+## Scripts
+
+- `make split_csv_by_dpt csv_path=exports/palissy.csv`

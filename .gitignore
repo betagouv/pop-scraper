@@ -1,4 +1,4 @@
 *.pyc
 tmp
 .ipynb_checkpoints
-exports
+exports/**/*.csv
