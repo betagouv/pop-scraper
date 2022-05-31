@@ -38,3 +38,5 @@ Scrappe un seul objet grace à sa référence Palissy
 ## Scripts
 
 - `make split_csv_by_dpt csv_path=exports/palissy.csv`
+- `make prepare_sqlite csv_path=./exports/palissy.csv`
+- `make datasette`

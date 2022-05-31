@@ -2,3 +2,5 @@
 tmp
 .ipynb_checkpoints
 exports/**/*.csv
+exports/**/*.sqlite
+
