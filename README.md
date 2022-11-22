@@ -19,7 +19,7 @@ Déployé et disponible sur [zyte.com](https://app.zyte.com/)
 
 ### `base_pop`
 
-Base POP à scrapper. Seules `memoire` et `palissy` sont supportées. Défault `palissy`
+Base POP à scrapper. Seules `memoire`, `palissy` et `merimee` sont supportées. Défault `palissy`
 
 `poetry run scrapy crawl pop_api -a base_pop=memoire`
 
@@ -38,3 +38,10 @@ Scrappe un seul objet grace à sa référence Palissy
 ## Scripts
 
 - `make split_csv_by_dpt csv_path=exports/palissy.csv`
+
+
+## Rajouter une base POP (Joconde, MNR etc)
+
+- récupérer un item en JSON depuis le navigateur sur la page de recherche
+- récupérer le CSV de description des champs de la base dans la codebase de POP
+- rajouter la classe d'Item dans items.py à partir de ces deux fichiers comparés - la source de vérité est ce qu'on peut récupérer depuis l'API de recherche

@@ -1,7 +1,7 @@
 import scrapy
 import json
 import logging
-from pop_scraper.items import ItemPalissy, ItemMemoire
+from pop_scraper.items import ItemPalissy, ItemMemoire, ItemMerimee
 from pop_scraper.pop_api import build_query
 
 class PopApiSpider(scrapy.Spider):
@@ -25,8 +25,8 @@ class PopApiSpider(scrapy.Spider):
     self.base_pop = base_pop
     self.exact_ref = ref
     self.initial_search_after = search_after
-    if base_pop not in ["palissy", "memoire"]:
-      raise "unsupported base_pop (should be palissy or memoire)"
+    if base_pop not in ["palissy", "memoire", "merimee"]:
+      raise "unsupported base_pop (should be palissy, memoire or merimee)"
 
   def start_requests(self):
     return [
@@ -89,6 +89,16 @@ class PopApiSpider(scrapy.Spider):
         item = ItemMemoire()
         for field in item.fields:
           item[field] = hit["_source"].get(field)
+        yield item
+      elif self.base_pop == "merimee":
+        item = ItemMerimee()
+        for field in item.fields:
+          if field in ["MEMOIRE_REFS", "MEMOIRE_URLS"]:
+            continue
+          item[field] = hit["_source"].get(field)
+        memoire_fields = hit["_source"].get("MEMOIRE", [])
+        item["MEMOIRE_REFS"] = [f["ref"] for f in memoire_fields][0:10]
+        item["MEMOIRE_URLS"] = [f["url"] for f in memoire_fields][0:10]
         yield item
 
   def get_max_items(self):

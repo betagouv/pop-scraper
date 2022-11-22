@@ -1,0 +1,216 @@
+{
+  "ACMH": "",
+  "ACTU": "",
+  "ACURL": "",
+  "ADRS": "Eglise (place de l')",
+  "AFFE": "",
+  "AIRE": "",
+  "APPL": "",
+  "APRO": [
+    "arrêté"
+  ],
+  "ARCHEO": "",
+  "AUTP": [],
+  "AUTR": [],
+  "BASE": "Patrimoine architectural (Mérimée)",
+  "CADA": [
+    "1998 B 177"
+  ],
+  "CANT": "",
+  "COLL": [],
+  "COM": [
+    "Locqueltas"
+  ],
+  "CONTACT": "mediatheque.patrimoine@culture.gouv.fr",
+  "CONTIENT_IMAGE": "oui",
+  "COOR": "",
+  "COORM": "",
+  "COPY": [
+    "© Monuments historiques, 1992. Cette notice reprend intégralement les termes de l’arrêté de protection au titre des Monuments historiques. Elle répond à l’obligation réglementaire du ministère de la Culture d’établir la liste générale des édifices protégés (art. R. 621-80 du Code du patrimoine). Elle est donc opposable et fait foi juridiquement. Aucune copie numérique ou papier ne sera fournie par courrier ni courriel. Le dossier de protection complet et l’arrêté sont consultables uniquement sur place, dans la salle de lecture de la Médiathèque du patrimoine et de la photographie (MPP), à Charenton-le-Pont (Val-de-Marne)."
+  ],
+  "COUV": [],
+  "DATE": [],
+  "DBOR": "1992",
+  "DENO": [
+    "puits"
+  ],
+  "DENQ": "",
+  "DEPL": "",
+  "DESC": "",
+  "DIMS": "",
+  "DLAB": "",
+  "DMAJ": "2022-09-20",
+  "DMIS": "1993-08-24",
+  "DOMN": [],
+  "DOSADRS": "",
+  "DOSS": "dossier de protection",
+  "DOSURL": "",
+  "DOSURLP": "",
+  "DOSURLPDF": "",
+  "DPRO": "",
+  "DPT": [
+    "56"
+  ],
+  "DPT_LETTRE": [
+    "Morbihan"
+  ],
+  "EDIF": "",
+  "ELEV": [],
+  "ENER": [],
+  "ESCA": [],
+  "ETAG": [],
+  "ETAT": [],
+  "ETUD": [
+    "recensement immeubles MH"
+  ],
+  "GENR": [],
+  "HIST": "Sur une margelle circulaire : deux supports profilés reçoivent le cache treuil silhouetté en fronton circulaire avec croix au sommet et deux boules d'amortissement. Suite à son déplacement et à son remontage, cet édifice a perdu sa fonction et son implantation d'origine.",
+  "HISTORIQUE": [
+    {
+      "_id": "6329a48b6feec10b230ea068",
+      "date": "2022-09-20 13:31",
+      "email": "antonella.rotolo@culture.gouv.fr",
+      "nom": "Rotolo",
+      "prenom": "Antonella",
+      "updateMode": "import"
+    }
+  ],
+  "HYDR": "",
+  "IDAGR": "IVUEGT",
+  "IMAGE": "",
+  "IMG": [],
+  "IMPL": [],
+  "INSEE": [
+    "56120"
+  ],
+  "INTE": [
+    "à signaler"
+  ],
+  "JATT": [],
+  "JDAT": [],
+  "LIENS": [],
+  "LIEU": "",
+  "LINHA": [],
+  "LMDP": "PA00091408",
+  "LOCA": "",
+  "LREG": [],
+  "MEMOIRE": [
+    {
+      "_id": "62d82d597ae16c0b2908cd43",
+      "copy": "© Ministère de la Culture (France), Médiathèque du patrimoine et de la photographie, diffusion RMN-GP",
+      "marq": "",
+      "name": "Presbytère : Puits, vue générale",
+      "ref": "AP15R004778",
+      "url": "memoire/AP15R004778/15R004778.JPG"
+    },
+    {
+      "_id": "62d84b5b97324d0b27af67e0",
+      "copy": "© Ministère de la Culture (France), Médiathèque du patrimoine et de la photographie, diffusion RMN-GP",
+      "marq": "",
+      "name": "Puits du presbytère : Vue générale",
+      "ref": "AP12R002868",
+      "url": "memoire/AP12R002868/12R002868.jpg"
+    }
+  ],
+  "MFICH": "",
+  "MHPP": "",
+  "MICR": "",
+  "MOSA": "",
+  "MURS": [],
+  "NBOR": "56000435",
+  "NOMS": [],
+  "OBS": "",
+  "PAFF": "",
+  "PARN": [],
+  "PART": [],
+  "PDEN": "",
+  "PERS": [],
+  "PINT": "",
+  "PLAN": "",
+  "PLOC": "",
+  "POP_ARRETE_PROTECTION": [],
+  "POP_CONTIENT_GEOLOCALISATION": "oui",
+  "POP_COORDINATES_POINT": {
+    "coordinates": [],
+    "type": "Point"
+  },
+  "POP_COORDINATES_POLYGON": {
+    "coordinates": [],
+    "type": "Polygon"
+  },
+  "POP_COORDONNEES": {
+    "lat": 0,
+    "lon": 0
+  },
+  "POP_DATE": [
+    1700
+  ],
+  "POP_DOSSIER_PROTECTION": [],
+  "POP_DOSSIER_VERT": "",
+  "POP_FLAGS": [
+    "DOSS_EMPTY",
+    "ETUD_EMPTY",
+    "TICO_EMPTY",
+    "CONTACT_EMPTY"
+  ],
+  "POP_HAS_LOCATION": [
+    "non"
+  ],
+  "POP_IMPORT": [
+    "5c0a68b9e67351630d3e244a",
+    "5cdbd96d93be550e15125036",
+    "5ee3952c49193f0e1d6a8f58",
+    "6329a3fe6feec10b230e1830"
+  ],
+  "PPRO": "L'arrêté du 20 mars 1934 portant inscription au titre des monuments historiques du puits du presbytère, anciennement situé dans l'enclos du presbytère (aujourd'hui détruit) et déplacé sur la place de l'église (non cadastré) est abrogé par arrêté du 1er août 2014",
+  "PREP": [],
+  "PRODUCTEUR": "Monuments Historiques",
+  "PROT": [
+    "radié MH"
+  ],
+  "PSTA": "",
+  "REF": "PA00091408",
+  "REFE": [],
+  "REFIM": "",
+  "REFJOC": [],
+  "REFM": "",
+  "REFMUS": [],
+  "REFO": [],
+  "REFP": [],
+  "REG": [
+    "Bretagne"
+  ],
+  "REMA": "",
+  "REMP": "",
+  "RENV": [],
+  "REPR": "",
+  "RFPA": "",
+  "SCLD": [],
+  "SCLE": [
+    "2e moitié 18e siècle"
+  ],
+  "SCLX": [
+    "18e s."
+  ],
+  "SITE": "",
+  "STAT": "propriété de la commune",
+  "TECH": [],
+  "THEM": "",
+  "TICO": "Presbytère",
+  "TOIT": [],
+  "TOUT": "",
+  "TYPO": "",
+  "VERT": "",
+  "VIDEO": "",
+  "VISI": [],
+  "VOCA": "",
+  "VOUT": [],
+  "WADRS": "place de l'Eglise",
+  "WCOM": [
+    "Locqueltas"
+  ],
+  "WEB": "",
+  "WRENV": "",
+  "ZONE": "",
+  "__v": 0
+}
