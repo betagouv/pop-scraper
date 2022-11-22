@@ -45,3 +45,4 @@ Scrappe un seul objet grace à sa référence Palissy
 - récupérer un item en JSON depuis le navigateur sur la page de recherche
 - récupérer le CSV de description des champs de la base dans la codebase de POP
 - rajouter la classe d'Item dans items.py à partir de ces deux fichiers comparés - la source de vérité est ce qu'on peut récupérer depuis l'API de recherche
+- faire un premier import puis pour chaque array, vérifier qu'il y a vraiment des valeurs multiples avec `select count(*) from palissy where DENO is not null and json_array_length(DENO) > 1;` par exemple. sinon, changer le serializer
