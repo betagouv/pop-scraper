@@ -4,10 +4,22 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+import json
 
 def serialize_array(value):
-  if isinstance(value, list) and all(isinstance(e, str) for e in value):
-    return ";".join(value)
+  if isinstance(value, list):
+    values = [v for v in value if v is not None and v != ""]
+    if len(values) == 0:
+      return None
+    return json.dumps(values)
+  return value
+
+def serialize_first_value(value):
+  if isinstance(value, list):
+    if len(value) == 0:
+      return None
+    elif len(value) >= 1:
+      return value[0]
   return value
 
 class ItemPalissy(scrapy.Item):
@@ -23,8 +35,8 @@ class ItemPalissy(scrapy.Item):
   BIBL = scrapy.Field()
   CANT = scrapy.Field()
   CATE = scrapy.Field(serializer=serialize_array)
-  COM = scrapy.Field(serializer=serialize_array)
-  COM2 = scrapy.Field(serializer=serialize_array)
+  COM = scrapy.Field(serializer=serialize_first_value) # only 3 cases where it's an array
+  COM2 = scrapy.Field() # never multiple values
   CONTACT = scrapy.Field()
   CONTIENT_IMAGE = scrapy.Field()
   COOR = scrapy.Field()
@@ -41,13 +53,13 @@ class ItemPalissy(scrapy.Item):
   DMIS = scrapy.Field()
   DOMN = scrapy.Field()
   DOSADRS = scrapy.Field()
-  DOSS = scrapy.Field(serializer=serialize_array)
+  DOSS = scrapy.Field(serializer=serialize_first_value) # only 3 cases where it's an array
   DOSURL = scrapy.Field()
   DOSURLP = scrapy.Field()
   DOSURLPDF = scrapy.Field()
   DPRO = scrapy.Field()
-  DPT = scrapy.Field(serializer=serialize_array)
-  DPT_LETTRE = scrapy.Field(serializer=serialize_array)
+  DPT = scrapy.Field() # never multiple values
+  DPT_LETTRE = scrapy.Field() # never multiple values
   EDIF = scrapy.Field()
   EMPL = scrapy.Field()
   ETAT = scrapy.Field(serializer=serialize_array)
@@ -55,27 +67,24 @@ class ItemPalissy(scrapy.Item):
   EXEC = scrapy.Field()
   EXPO = scrapy.Field()
   HIST = scrapy.Field()
-  # HISTORIQUE = scrapy.Field(serializer=serialize_array)
   IDAGR = scrapy.Field(serializer=serialize_array)
   IMAGE = scrapy.Field()
-  IMG = scrapy.Field(serializer=serialize_array)
+  IMG = scrapy.Field(serializer=serialize_first_value) # only 1 with multiple values
   IMPL = scrapy.Field()
   INSC = scrapy.Field(serializer=serialize_array)
-  INSEE = scrapy.Field(serializer=serialize_array)
+  INSEE = scrapy.Field(serializer=serialize_first_value) # only 5 with multiple values
   INTE = scrapy.Field()
-  JDAT = scrapy.Field(serializer=serialize_array)
+  JDAT = scrapy.Field() # never multiple values
   LARC = scrapy.Field()
   LIENS = scrapy.Field(serializer=serialize_array)
   LIEU = scrapy.Field()
-  LINHA = scrapy.Field(serializer=serialize_array)
+  LINHA = scrapy.Field(serializer=serialize_first_value) # only 1 with multiple values
   LMDP = scrapy.Field()
   LOCA = scrapy.Field()
-  LREG = scrapy.Field(serializer=serialize_array)
-  MANQUANT = scrapy.Field(serializer=serialize_array)
+  LREG = scrapy.Field() # never multiple values
+  MANQUANT = scrapy.Field() # never multiple values
   MATR = scrapy.Field(serializer=serialize_array)
-  MEMOIRE_REFS = scrapy.Field(serializer=serialize_array)
-  MEMOIRE_URLS = scrapy.Field(serializer=serialize_array)
-  MFICH = scrapy.Field(serializer=serialize_array)
+  MFICH = scrapy.Field(serializer=serialize_first_value) # only one with multiple values
   MICR = scrapy.Field()
   MOSA = scrapy.Field()
   NART = scrapy.Field()
@@ -96,7 +105,7 @@ class ItemPalissy(scrapy.Item):
   PINS = scrapy.Field()
   PINT = scrapy.Field()
   PLOC = scrapy.Field()
-  POP_ARRETE_PROTECTION = scrapy.Field(serializer=serialize_array)
+  POP_ARRETE_PROTECTION = scrapy.Field() # never multiple values
   POP_COMMENTAIRES = scrapy.Field(serializer=serialize_array)
   POP_CONTIENT_GEOLOCALISATION = scrapy.Field()
   POP_COORDINATES_POLYGON = scrapy.Field()
@@ -111,17 +120,16 @@ class ItemPalissy(scrapy.Item):
   PRODUCTEUR = scrapy.Field()
   PROT = scrapy.Field()
   REF = scrapy.Field()
-  REFA = scrapy.Field(serializer=serialize_array)
-  REFE = scrapy.Field(serializer=serialize_array)
-  REFJOC = scrapy.Field(serializer=serialize_array)
+  REFE = scrapy.Field(serializer=serialize_first_value) # only one with multiple values
+  REFJOC = scrapy.Field() # never multiple values
   REFM = scrapy.Field()
-  REFMUS = scrapy.Field(serializer=serialize_array)
+  REFMUS = scrapy.Field() # never multiple values
   REFP = scrapy.Field(serializer=serialize_array)
-  REG = scrapy.Field(serializer=serialize_array)
-  RENP = scrapy.Field(serializer=serialize_array)
+  REG = scrapy.Field(serializer=serialize_first_value) # only one with multiple values
+  RENP = scrapy.Field() # never multiple values
   RENV = scrapy.Field(serializer=serialize_array)
   REPR = scrapy.Field(serializer=serialize_array)
-  SCLD = scrapy.Field(serializer=serialize_array)
+  SCLD = scrapy.Field() # never multiple values
   SCLE = scrapy.Field(serializer=serialize_array)
   SCLX = scrapy.Field(serializer=serialize_array)
   SOUR = scrapy.Field()
@@ -135,10 +143,21 @@ class ItemPalissy(scrapy.Item):
   VIDEO = scrapy.Field(serializer=serialize_array)
   VOLS = scrapy.Field()
   WADRS = scrapy.Field()
-  WCOM = scrapy.Field(serializer=serialize_array)
+  WCOM = scrapy.Field(serializer=serialize_first_value) # only 6 with multiple values
   WEB = scrapy.Field()
   WRENV = scrapy.Field()
   ZONE = scrapy.Field()
+
+class ItemPalissyToMerimee(scrapy.Item):
+  REF_PALISSY = scrapy.Field()
+  REF_MERIMEE = scrapy.Field()
+
+class ItemPalissyToMemoire(scrapy.Item):
+  REF_PALISSY = scrapy.Field()
+  REF_MEMOIRE = scrapy.Field()
+  NAME = scrapy.Field()
+  COPY = scrapy.Field()
+  URL = scrapy.Field()
 
 class ItemMemoire(scrapy.Item):
   ACQU = scrapy.Field()
@@ -307,14 +326,14 @@ class ItemMerimee(scrapy.Item):
   DLAB = scrapy.Field()
   DMAJ = scrapy.Field()
   DMIS = scrapy.Field()
-  DOMN = scrapy.Field(serializer=serialize_array)
+  DOMN = scrapy.Field(serializer=serialize_first_value) # only 4 with multiple values
   DOSADRS = scrapy.Field()
   DOSS = scrapy.Field()
   DOSURL = scrapy.Field()
   DOSURLPDF = scrapy.Field()
   DPRO = scrapy.Field()
-  DPT = scrapy.Field(serializer=serialize_array)
-  DPT_LETTRE = scrapy.Field(serializer=serialize_array)
+  DPT = scrapy.Field(serializer=serialize_first_value) # only 20 with multiple values
+  DPT_LETTRE = scrapy.Field(serializer=serialize_first_value) # only 17 with multiple values
   EDIF = scrapy.Field()
   ELEV = scrapy.Field(serializer=serialize_array)
   ENER = scrapy.Field(serializer=serialize_array)
@@ -324,26 +343,21 @@ class ItemMerimee(scrapy.Item):
   ETUD = scrapy.Field(serializer=serialize_array)
   GENR = scrapy.Field(serializer=serialize_array)
   HIST = scrapy.Field()
-  # HISTORIQUE = scrapy.Field(serializer=serialize_array)
   HYDR = scrapy.Field()
   IDAGR = scrapy.Field()
   IMAGE = scrapy.Field()
-  IMG = scrapy.Field(serializer=serialize_array)
-  IMPL = scrapy.Field(serializer=serialize_array)
-  INSEE = scrapy.Field(serializer=serialize_array)
+  IMG = scrapy.Field(serializer=serialize_first_value) # only 2 with multiple values
+  IMPL = scrapy.Field(serializer=serialize_first_value) # only 64 with multiple values
+  INSEE = scrapy.Field(serializer=serialize_first_value) # only 233 with multiple values
   INTE = scrapy.Field(serializer=serialize_array)
   JATT = scrapy.Field(serializer=serialize_array)
   JDAT = scrapy.Field(serializer=serialize_array)
-  # LBASE2 = scrapy.Field()
   LIENS = scrapy.Field(serializer=serialize_array)
   LIEU = scrapy.Field()
-  LINHA = scrapy.Field(serializer=serialize_array)
+  LINHA = scrapy.Field() # never with multiple values
   LMDP = scrapy.Field()
   LOCA = scrapy.Field()
-  LREG = scrapy.Field(serializer=serialize_array)
-  MEMOIRE_REFS = scrapy.Field(serializer=serialize_array)
-  MEMOIRE_URLS = scrapy.Field(serializer=serialize_array)
-  # MEMOIRE = scrapy.Field(serializer=serialize_array)
+  LREG = scrapy.Field() # never with multiple values
   MFICH = scrapy.Field()
   MHPP = scrapy.Field()
   MICR = scrapy.Field()
@@ -360,13 +374,13 @@ class ItemMerimee(scrapy.Item):
   PINT = scrapy.Field()
   PLAN = scrapy.Field()
   PLOC = scrapy.Field()
-  POP_ARRETE_PROTECTION = scrapy.Field(serializer=serialize_array)
+  POP_ARRETE_PROTECTION = scrapy.Field(serializer=serialize_first_value) # only 40 with multiple values
   POP_CONTIENT_GEOLOCALISATION = scrapy.Field()
   POP_COORDINATES_POINT = scrapy.Field()
   POP_COORDINATES_POLYGON = scrapy.Field()
   POP_COORDONNEES = scrapy.Field()
-  POP_DATE = scrapy.Field(serializer=serialize_array)
-  POP_DOSSIER_PROTECTION = scrapy.Field(serializer=serialize_array)
+  POP_DATE = scrapy.Field() # never with multiple values
+  POP_DOSSIER_PROTECTION = scrapy.Field() # never with multiple values
   POP_DOSSIER_VERT = scrapy.Field()
   POP_FLAGS = scrapy.Field(serializer=serialize_array)
   POP_HAS_LOCATION = scrapy.Field(serializer=serialize_array)
@@ -377,14 +391,14 @@ class ItemMerimee(scrapy.Item):
   PROT = scrapy.Field(serializer=serialize_array)
   PSTA = scrapy.Field()
   REF = scrapy.Field()
-  REFE = scrapy.Field(serializer=serialize_array)
+  REFE = scrapy.Field(serializer=serialize_first_value) # only 2 with multiple values
   REFIM = scrapy.Field()
-  REFJOC = scrapy.Field(serializer=serialize_array)
+  REFJOC = scrapy.Field() # never with multiple values
   REFM = scrapy.Field()
   REFMUS = scrapy.Field(serializer=serialize_array)
   REFO = scrapy.Field(serializer=serialize_array)
   REFP = scrapy.Field(serializer=serialize_array)
-  REG = scrapy.Field(serializer=serialize_array)
+  REG = scrapy.Field(serializer=serialize_first_value) # only 8 with multiple values
   REMA = scrapy.Field()
   REMP = scrapy.Field()
   RENV = scrapy.Field(serializer=serialize_array)
@@ -403,7 +417,7 @@ class ItemMerimee(scrapy.Item):
   TYPO = scrapy.Field()
   VERT = scrapy.Field()
   VIDEO = scrapy.Field()
-  VISI = scrapy.Field(serializer=serialize_array)
+  VISI = scrapy.Field(serializer=serialize_first_value) # only 60 with multiple values
   VOCA = scrapy.Field()
   VOUT = scrapy.Field(serializer=serialize_array)
   WADRS = scrapy.Field()
@@ -411,3 +425,10 @@ class ItemMerimee(scrapy.Item):
   WEB = scrapy.Field()
   WRENV = scrapy.Field()
   ZONE = scrapy.Field()
+
+class ItemMerimeeToMemoire(scrapy.Item):
+  REF_MERIMEE = scrapy.Field()
+  REF_MEMOIRE = scrapy.Field()
+  NAME = scrapy.Field()
+  COPY = scrapy.Field()
+  URL = scrapy.Field()

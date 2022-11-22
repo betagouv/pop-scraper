@@ -1,7 +1,7 @@
 import scrapy
 import json
 import logging
-from pop_scraper.items import ItemPalissy, ItemMemoire, ItemMerimee
+from pop_scraper.items import ItemPalissy, ItemPalissyToMerimee, ItemPalissyToMemoire, ItemMemoire, ItemMerimee, ItemMerimeeToMemoire
 from pop_scraper.pop_api import build_query
 
 class PopApiSpider(scrapy.Spider):
@@ -78,13 +78,18 @@ class PopApiSpider(scrapy.Spider):
       if self.base_pop == "palissy":
         item = ItemPalissy()
         for field in item.fields:
-          if field in ["MEMOIRE_REFS", "MEMOIRE_URLS"]:
-            continue
           item[field] = hit["_source"].get(field)
-        memoire_fields = hit["_source"].get("MEMOIRE", [])
-        item["MEMOIRE_REFS"] = [f["ref"] for f in memoire_fields]
-        item["MEMOIRE_URLS"] = [f["url"] for f in memoire_fields]
         yield item
+        for memoire in hit["_source"].get("MEMOIRE", []):
+          yield ItemPalissyToMemoire(
+            REF_PALISSY=item["REF"],
+            REF_MEMOIRE=memoire.get("ref"),
+            NAME=memoire.get("name"),
+            COPY=memoire.get("copy"),
+            URL=memoire.get("url")
+          )
+        for ref_merimee in hit["_source"].get("REFA", []):
+          yield ItemPalissyToMerimee(REF_PALISSY=item["REF"], REF_MERIMEE=ref_merimee)
       elif self.base_pop == "memoire":
         item = ItemMemoire()
         for field in item.fields:
@@ -96,9 +101,14 @@ class PopApiSpider(scrapy.Spider):
           if field in ["MEMOIRE_REFS", "MEMOIRE_URLS"]:
             continue
           item[field] = hit["_source"].get(field)
-        memoire_fields = hit["_source"].get("MEMOIRE", [])
-        item["MEMOIRE_REFS"] = [f["ref"] for f in memoire_fields][0:10]
-        item["MEMOIRE_URLS"] = [f["url"] for f in memoire_fields][0:10]
+        for memoire in hit["_source"].get("MEMOIRE", []):
+          yield ItemMerimeeToMemoire(
+            REF_MERIMEE=item["REF"],
+            REF_MEMOIRE=memoire.get("ref"),
+            NAME=memoire.get("name"),
+            COPY=memoire.get("copy"),
+            URL=memoire.get("url")
+          )
         yield item
 
   def get_max_items(self):
