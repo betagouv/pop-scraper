@@ -80,14 +80,18 @@ class PopApiSpider(scrapy.Spider):
         for field in item.fields:
           item[field] = hit["_source"].get(field)
         yield item
+        self.crawler.stats.inc_value("main_item_scraped_count", 1)
         for memoire in hit["_source"].get("MEMOIRE", []):
-          yield ItemPalissyToMemoire(
-            REF_PALISSY=item["REF"],
-            REF_MEMOIRE=memoire.get("ref"),
-            NAME=memoire.get("name"),
-            COPY=memoire.get("copy"),
-            URL=memoire.get("url")
-          )
+          if memoire and "ref" in memoire:
+            yield ItemPalissyToMemoire(
+              REF_PALISSY=item["REF"],
+              REF_MEMOIRE=memoire.get("ref"),
+              NAME=memoire.get("name"),
+              COPY=memoire.get("copy"),
+              URL=memoire.get("url")
+            )
+          else:
+            logging.warning(f"ref not in {memoire}")
         for ref_merimee in hit["_source"].get("REFA", []):
           yield ItemPalissyToMerimee(REF_PALISSY=item["REF"], REF_MERIMEE=ref_merimee)
       elif self.base_pop == "memoire":
@@ -95,6 +99,7 @@ class PopApiSpider(scrapy.Spider):
         for field in item.fields:
           item[field] = hit["_source"].get(field)
         yield item
+        self.crawler.stats.inc_value("main_item_scraped_count", 1)
       elif self.base_pop == "merimee":
         item = ItemMerimee()
         for field in item.fields:
@@ -102,14 +107,21 @@ class PopApiSpider(scrapy.Spider):
             continue
           item[field] = hit["_source"].get(field)
         for memoire in hit["_source"].get("MEMOIRE", []):
-          yield ItemMerimeeToMemoire(
-            REF_MERIMEE=item["REF"],
-            REF_MEMOIRE=memoire.get("ref"),
-            NAME=memoire.get("name"),
-            COPY=memoire.get("copy"),
-            URL=memoire.get("url")
-          )
+          if memoire and "ref" in memoire:
+            yield ItemMerimeeToMemoire(
+              REF_MERIMEE=item["REF"],
+              REF_MEMOIRE=memoire.get("ref"),
+              NAME=memoire.get("name"),
+              COPY=memoire.get("copy"),
+              URL=memoire.get("url")
+            )
+          else:
+            logging.warning(f"ref not in {memoire}")
         yield item
+        self.crawler.stats.inc_value("main_item_scraped_count", 1)
+
+    logging.info(f"page scrapped, now at {self.crawler.stats.get_stats().get('main_item_scraped_count')} {self.base_pop} items scraped")
+
 
   def get_max_items(self):
     if self.max_items_from_args:
