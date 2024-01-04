@@ -1,8 +1,7 @@
 import scrapy
-import json
 import logging
 from pop_scraper.items import ItemPalissy, ItemPalissyToMerimee, ItemPalissyToMemoire, ItemMemoire, ItemMerimee, ItemMerimeeToMemoire
-from pop_scraper.pop_api import build_query
+from pop_scraper.request_builder import RequestBuilderPalissy, RequestBuilderMerimee
 
 class PopApiSpider(scrapy.Spider):
   name = 'pop_api'
@@ -15,7 +14,6 @@ class PopApiSpider(scrapy.Spider):
     max_items=None,
     items_per_request=None,
     ref=None,
-    search_after=None,
     *args,
     **kwargs
   ):
@@ -24,36 +22,20 @@ class PopApiSpider(scrapy.Spider):
     self.items_per_request_from_args = items_per_request
     self.base_pop = base_pop
     self.exact_ref = ref
-    self.initial_search_after = search_after
     if base_pop not in ["palissy", "memoire", "merimee"]:
       raise "unsupported base_pop (should be palissy, memoire or merimee)"
 
   def start_requests(self):
-    return [
-      self.build_request(
-        current_items_count=0,
-        search_after=self.initial_search_after
-      )
-    ]
-
-  def build_request(self, search_after=None, current_items_count=0):
-    query = build_query(
-      self.base_pop,
-      search_after=search_after,
-      items_per_request=self.get_items_per_request(),
-      exact_ref=self.exact_ref
-    )
-    return scrapy.Request(
-      f"https://api.pop.culture.gouv.fr/search/{self.base_pop}/_msearch",
-      method="POST",
-      headers={"Content-Type": "application/x-ndjson", "Referer": f"search_after {search_after}"},
-      body='{"preference":"res"}\n' + json.dumps(query) + '\n',
-      meta={ "search_after": search_after, "current_items_count": current_items_count }
-    )
+    if self.base_pop == "palissy":
+        self.request_builder = RequestBuilderPalissy(self.get_items_per_request())
+    elif self.base_pop == "merimee":
+        self.request_builder = RequestBuilderMerimee(self.get_items_per_request())
+    else:
+        raise "unsupported base_pop (should be palissy or merimee), memoire is not yet supported"
+    return self.request_builder.build_initial_requests()
 
   def parse(self, response):
     res = response.json()
-    # logging.debug(f"got response {res}")
 
     if "responses" not in res or len(res["responses"]) < 1:
       logging.error(f"error while parsing {res}")
@@ -68,12 +50,24 @@ class PopApiSpider(scrapy.Spider):
       raise Exception("error!")
 
     total_hits = res["responses"][0]["hits"]["total"]
-    if response.meta["search_after"] is None:
-      logging.info(f"STARTING CRAWL, total hits: {total_hits}")
+
+    current_items_count = response.meta["current_items_count"]
+    ref_start = response.meta["ref_start"]
+    ref_end = response.meta["ref_end"]
+
+    if current_items_count == 0:
+      logging.info(f"STARTING CRAWL in range {ref_start} to {ref_end}, total hits: {total_hits}")
+
     hits = res["responses"][0]["hits"]["hits"]
-    next_current_items_count = response.meta["current_items_count"] + self.get_items_per_request()
+    next_current_items_count = current_items_count + self.get_items_per_request()
     if len(hits) >= self.get_items_per_request() and next_current_items_count < self.get_max_items():
-      yield self.build_request(search_after=hits[-1]["sort"][0], current_items_count=next_current_items_count)
+      logging.info(f"yielding next request in range {ref_start} to {ref_end} from index {next_current_items_count} / {total_hits}")
+      yield self.request_builder.build_request(
+        ref_start,
+        ref_end,
+        start_from=next_current_items_count
+      )
+
     for hit in hits:
       if self.base_pop == "palissy":
         item = ItemPalissy()
